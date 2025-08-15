@@ -1,3 +1,5 @@
+'use client'
+
 import { HackathonCard } from '@/components/hackathon-card'
 import { ProjectCard } from '@/components/project-card'
 import { ResumeCard } from '@/components/resume-card'
@@ -9,53 +11,27 @@ import { BlurFade } from '@a33/ui/blur-fade'
 import BlurFadeText from '@a33/ui/blur-fade-text'
 import Link from 'next/link'
 import Markdown from 'react-markdown'
-import { Icons } from '@/components/icons'
-import { Button } from '@a33/ui/button'
 
 const BLUR_FADE_DELAY = 0.04
 
-export default function Page() {
+export default function Client() {
 	return (
 		<main className="flex flex-col min-h-[100dvh] space-y-10">
 			<section id="hero">
 				<div className="mx-auto w-full max-w-2xl space-y-8">
 					<div className="gap-2 flex justify-between">
 						<div className="flex-col flex flex-1 space-y-1.5">
-							<div className="flex items-center gap-2">
-								<BlurFadeText
-									delay={BLUR_FADE_DELAY}
-									className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
-									yOffset={8}
-									text={` ${DATA.name} `}
-								/>
-							</div>
+							<BlurFadeText
+								delay={BLUR_FADE_DELAY}
+								className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
+								yOffset={8}
+								text={` ${DATA.name} `}
+							/>
 							<BlurFadeText
 								className="max-w-[600px] md:text-xl"
 								delay={BLUR_FADE_DELAY}
 								text={DATA.description}
 							/>
-							<div className="flex justify-start md:justify-start mt-2 gap-1">
-								<a href={`mailto:${DATA.contact.email}`} tabIndex={-1} aria-label="Contact Me">
-									<Button
-										variant="ghost"
-										size="icon"
-										className="p-1"
-										style={{ background: 'transparent', color: 'black' }}
-									>
-										<Icons.email className="size-5" />
-									</Button>
-								</a>
-								<a href={DATA.contact.social.LinkedIn.url} target="_blank" rel="noopener noreferrer" tabIndex={-1} aria-label="LinkedIn">
-									<Button
-										variant="ghost"
-										size="icon"
-										className="p-1"
-										style={{ background: 'transparent', color: 'black' }}
-									>
-										<Icons.linkedin className="size-5" />
-									</Button>
-								</a>
-							</div>
 						</div>
 						<BlurFade delay={BLUR_FADE_DELAY}>
 							<Avatar className="size-40 border">
@@ -221,10 +197,6 @@ export default function Page() {
 				</div>
 			</section>
 			<ScrollToTopButton />
-			<footer className="w-full border-t pt-6 pb-8 mt-8 text-center text-xs text-muted-foreground dark:text-muted-foreground/80">
-				{new Date().toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' })} &mdash; This page was created by Gabriel Duarte Rengifo using inspiration and elements from{' '}
-				<a href="https://magicui.design" target="_blank" rel="noopener noreferrer" className="underline hover:text-primary">Magic UI Library</a>
-			</footer>
 		</main>
 	)
 }

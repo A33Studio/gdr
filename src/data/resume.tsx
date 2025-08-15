@@ -8,11 +8,12 @@ export const DATA = {
     location: "Ft. Lauderdale, FL",
     locationLink: "https://www.google.com/maps/place/fort+lauderdale",
     description:
-        "Student at Pine Crest School",
+        "Student at Purdue University",
     summary:
-        "[Click here to learn in more detail about my experinces](https://drive.google.com/file/d/1HSjKks6TZdULTEnQ_ZVaXXrqL3-E380b/view?usp=sharing)",
+        "[Hi my name is Gabriel Duarte Rengifo and I am a student at Purdue University. I am studying engineering and I am passionate about aviation , computer scinece, artificial intelligence, web development, and creating in general. Click here to learn in more detail about my experinces](https://drive.google.com/file/d/1HSjKks6TZdULTEnQ_ZVaXXrqL3-E380b/view?usp=sharing)",
     avatarUrl: "/me.jpg",
     skills: [//add my skills here
+        "CAD",
         "React",
         "Next.js",
         "Typescript",
@@ -21,9 +22,14 @@ export const DATA = {
         "Fusion 360",
         "Unity",
         "Swift",
-        "XCode",
+        "Xcode",
         "Java",
         "Adobe Products",
+        "Microsoft 365",
+        "Graphic Design",
+        "Canva",
+        "Figma",
+        "UX Design"
     ],
     contact: {
         email: "gabriel@duarterengifo.com",
@@ -31,7 +37,7 @@ export const DATA = {
         social: {
             LinkedIn: {
                 name: "LinkedIn",
-                url: "https://linkedin.com/gabrielduarter",
+                url: "https://linkedin.com/in/gabrielduarter",
                 icon: null,
             },
             email: {
@@ -77,6 +83,14 @@ export const DATA = {
             start: "2021",
             end: "2025",
         },
+        {
+            school: "Purdue University",
+            href: "https://purdue.edu",
+            degree: "Bachelor of Science in Aerospace and Aeronautical Engineering",
+            logoUrl: "/purdue.jpeg",
+            start: "2025",
+            end: "2029",
+        },
     ],
     projects: [
         {
@@ -88,9 +102,7 @@ export const DATA = {
             technologies: [
                 "Unity",
                 "Blender",
-                "XCode",
-                "Lens Studio",
-                "Snapchat Spectacles",
+                "Xcode",
                 "Meta Quest Pro",
             ],
             links: [
@@ -98,6 +110,10 @@ export const DATA = {
                     type: "Pitch Deck",
                     href: "https://docs.google.com/presentation/d/1pbsgbrwc9KYLjBC6ZxLTzBz8PtyZjXXFJ-c1P15T4ng/edit?usp=sharing",
                     //icon: <Icons.globe className="size-3" />,
+                },
+                {
+                    type: "Website",
+                    href: "https://www.playar.co",
                 },
             ],
             image: "/playar.jpg",
@@ -124,7 +140,7 @@ export const DATA = {
         {
             title: "Grief Lift",
             href: "https://grieflift.org",
-            dates: "June 2024 - Present",
+            dates: "June 2024 - June 2025",
             active: true,
             description:
                 "Helped a start up design and develop a website for them to outreach to customers more easiely and create a secure system for users to privately talk with other people in the community in similar situations",
@@ -162,6 +178,16 @@ export const DATA = {
                 "Participated in various Hackathons each year that are composed of multiple challenges ranging in difficulty, participated in the Bebras challenge as well as ACSL while in the club. Was 1 of 5 students chosen to work on the pepper AI robot to develop new applications for it.",
             image:
                 "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-322671471_561a9968647b4.gif?1536347591",
+            links: [],
+        },
+        {
+            title: "Vertically Integrated Projects (VIP)",
+            dates: "August 2025- Present",
+            location: "Purdue University",
+            description:
+                "Currently working on the Humanoid Robot Project for the VIP program at Purdue University.",
+            image:
+                "",
             links: [],
         },
     ],

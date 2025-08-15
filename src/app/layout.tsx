@@ -1,8 +1,12 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import '@a33/ui/styles.css'
+import '@a33/css/standard.css'
+import { ThemeProvider } from '@/components/theme-provider'
 import { DATA } from '@/data/resume'
 import { cn } from '@/lib/utils'
 import './globals.css'
+import { Suspense } from 'react'
 
 const inter = Inter({
 	subsets: ['latin'],
@@ -54,7 +58,9 @@ export default function RootLayout({
 					inter.className,
 				)}
 			>
-				{children}
+				<ThemeProvider attribute="class" defaultTheme="light">
+					{children}
+				</ThemeProvider>
 			</body>
 		</html>
 	)

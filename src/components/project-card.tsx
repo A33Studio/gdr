@@ -1,11 +1,11 @@
-import { Badge } from "@/components/badge";
+import { Badge } from "@a33/ui/badge";
 import {
   Card,
   CardContent,
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/card";
+} from "@a33/ui/card";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
