@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@a33/ui/button";
+import { Button } from "@/components/button";
 import { MoonIcon, SunIcon } from "@radix-ui/react-icons";
 import { useTheme } from "next-themes";
 import type { FC } from 'react';

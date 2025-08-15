@@ -1,12 +1,12 @@
-import { Dock, DockIcon } from "@a33/ui/dock";
+import { Dock, DockIcon } from "@/components/dock";
 import { ModeToggle } from "@/components/mode-toggle";
-import { buttonVariants } from "@a33/ui/button";
-import { Separator } from "@a33/ui/separator";
+import { buttonVariants } from "@/components/button";
+import { Separator } from "@/components/separator";
 import {
   Tooltip,
   TooltipContent,
   TooltipTrigger,
-} from "@a33/ui/tooltip";
+} from "@/components/tooltip";
 import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
 import Link from "next/link";

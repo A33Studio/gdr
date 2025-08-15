@@ -9,8 +9,20 @@ export const DATA = {
     locationLink: "https://www.google.com/maps/place/fort+lauderdale",
     description:
         "Student at Purdue University",
+    navbar: [
+        {
+            href: "/",
+            label: "Home",
+            icon: HomeIcon,
+        },
+        {
+            href: "/resume",
+            label: "Resume",
+            icon: NotebookIcon,
+        },
+    ],
     summary:
-        "[Hi my name is Gabriel Duarte Rengifo and I am a student at Purdue University. I am studying engineering and I am passionate about aviation , computer scinece, artificial intelligence, web development, and creating in general. Click here to learn in more detail about my experinces](https://drive.google.com/file/d/1HSjKks6TZdULTEnQ_ZVaXXrqL3-E380b/view?usp=sharing)",
+        "[Hi my name is Gabriel Duarte Rengifo and I am a student at Purdue University. I am studying engineering and I am passionate about aviation , computer scinece, artificial intelligence, web development, and creating in general. Click here to learn in more detail about my experinces](https://docs.google.com/document/d/1rdu3B16wdCSJ9scUopUXD4m9B1a8Ye3ru-oQwoMPCiM/edit?usp=sharing)",
     avatarUrl: "/me.jpg",
     skills: [//add my skills here
         "CAD",
@@ -39,11 +51,13 @@ export const DATA = {
                 name: "LinkedIn",
                 url: "https://linkedin.com/in/gabrielduarter",
                 icon: null,
+                navbar: true,
             },
             email: {
                 name: "Send Email",
                 url: "gabriel@duarterengifo.com",
-                //icon: Icons.email,
+                icon: null,
+                navbar: true,
             },
         },
     },

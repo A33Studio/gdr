@@ -5,10 +5,10 @@ import { ProjectCard } from '@/components/project-card'
 import { ResumeCard } from '@/components/resume-card'
 import { ScrollToTopButton } from '@/components/scroll-to-top-button'
 import { DATA } from '@/data/resume'
-import { Avatar, AvatarFallback, AvatarImage } from '@a33/ui/avatar'
-import { Badge } from '@a33/ui/badge'
-import { BlurFade } from '@a33/ui/blur-fade'
-import BlurFadeText from '@a33/ui/blur-fade-text'
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/avatar'
+import { Badge } from '@/components/badge'
+import { BlurFade } from '@/components/blur-fade'
+import BlurFadeText from '@/components/blur-fade-text'
 import Link from 'next/link'
 import Markdown from 'react-markdown'
 
@@ -47,7 +47,15 @@ export default function Client() {
 					<h2 className="text-xl font-bold">About</h2>
 				</BlurFade>
 				<BlurFade delay={BLUR_FADE_DELAY * 4}>
-					<Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
+					<Markdown
+						components={{
+							p: ({ children }) => (
+								<p className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
+									{children}
+								</p>
+							)
+						}}
+					>
 						{DATA.summary}
 					</Markdown>
 				</BlurFade>

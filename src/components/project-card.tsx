@@ -1,11 +1,11 @@
-import { Badge } from "@a33/ui/badge";
+import { Badge } from "@/components/badge";
 import {
   Card,
   CardContent,
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@a33/ui/card";
+} from "@/components/card";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
@@ -79,9 +79,12 @@ export function ProjectCard({
           </div>
           <Markdown
             components={{
-              p: ({ children }) => <p>{children}</p>
+              p: ({ children }) => (
+                <p className="prose max-w-full text-pretty font-sans text-xs text-muted-foreground dark:prose-invert">
+                  {children}
+                </p>
+              )
             }}
-            className="prose max-w-full text-pretty font-sans text-xs text-muted-foreground dark:prose-invert"
           >
             {description}
           </Markdown>

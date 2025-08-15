@@ -1,5 +1,5 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@a33/ui/avatar";
-import { Badge } from "@a33/ui/badge";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/avatar";
+import { Badge } from "@/components/badge";
 import Link from "next/link";
 
 interface Props {
