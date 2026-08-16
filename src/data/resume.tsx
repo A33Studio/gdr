@@ -26,7 +26,7 @@ export const DATA = {
         },
     ],
     summary:
-        "I'm Gabriel Duarte Rengifo, a sophomore at Purdue University studying Aerospace and Astronautical Engineering with a Certificate in Entrepreneurship and Innovation. I'm passionate about aviation, aerospace, XR technology, and building things — from designing parts in CATIA to co-founding [PlayAR](https://www.playar.co). I hold a Private Pilot License and am actively involved in the Purdue Space Program and lead the Humanoid Robot Club.",
+        "I'm Gabriel Duarte Rengifo, a sophomore at Purdue University studying Aeronautical and Astronautical Engineering with a Certificate in Entrepreneurship and Innovation. I'm passionate about aviation, aerospace, XR technology, and building things — from designing parts in CATIA to co-founding [PlayAR](https://www.playar.co). I hold a Private Pilot License and am actively involved in the Purdue Space Program and lead the Humanoid Robot Club.",
     avatarUrl: "/me.jpg",
     resumeUrl: "/resume.pdf",
     skills: [

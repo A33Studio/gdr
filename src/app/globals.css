@@ -4,35 +4,41 @@
 
 @layer base {
   :root {
-    --background: 210 40% 98%;
-    --foreground: 222 47% 11%;
+    /* Playful green / cream / brown palette, site-wide */
+    --background: 42 38% 95%;
+    --foreground: 20 35% 18%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222 47% 11%;
+    --card: 40 30% 98%;
+    --card-foreground: 20 35% 18%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222 47% 11%;
+    --popover: 40 30% 98%;
+    --popover-foreground: 20 35% 18%;
 
-    --primary: 221 83% 53%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 142 35% 30%;
+    --primary-foreground: 42 38% 97%;
 
-    --secondary: 210 40% 96%;
-    --secondary-foreground: 222 47% 11%;
+    --secondary: 35 40% 82%;
+    --secondary-foreground: 20 35% 18%;
 
-    --muted: 210 40% 96%;
-    --muted-foreground: 215 16% 47%;
+    --muted: 40 22% 88%;
+    --muted-foreground: 25 20% 38%;
 
-    --accent: 213 100% 96%;
-    --accent-foreground: 221 83% 35%;
+    --accent: 90 28% 42%;
+    --accent-foreground: 42 38% 97%;
 
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 100%;
+    --destructive: 6 70% 48%;
+    --destructive-foreground: 42 38% 97%;
 
-    --border: 214 32% 91%;
-    --input: 214 32% 91%;
-    --ring: 221 83% 53%;
+    --border: 35 25% 78%;
+    --input: 35 25% 78%;
+    --ring: 142 35% 30%;
 
-    --radius: 0.5rem;
+    --radius: 1.25rem;
+
+    --tree-bark: 25 35% 30%;
+    --leaf-light: 90 30% 55%;
+    --leaf-dark: 142 35% 25%;
+    --sun-cream: 42 45% 90%;
   }
 }
 
@@ -45,46 +51,4 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-
-  .font-heading {
-    font-family: var(--font-fredoka), ui-sans-serif, system-ui, sans-serif;
-  }
-}
-
-/* Portfolio zone — playful, organic palette scoped to /portfolio routes only */
-[data-theme="portfolio"] {
-  --background: 42 38% 95%;
-  --foreground: 20 35% 18%;
-
-  --card: 40 30% 98%;
-  --card-foreground: 20 35% 18%;
-
-  --popover: 40 30% 98%;
-  --popover-foreground: 20 35% 18%;
-
-  --primary: 142 35% 30%;
-  --primary-foreground: 42 38% 97%;
-
-  --secondary: 35 40% 82%;
-  --secondary-foreground: 20 35% 18%;
-
-  --muted: 40 22% 88%;
-  --muted-foreground: 25 20% 38%;
-
-  --accent: 90 28% 42%;
-  --accent-foreground: 42 38% 97%;
-
-  --destructive: 6 70% 48%;
-  --destructive-foreground: 42 38% 97%;
-
-  --border: 35 25% 78%;
-  --input: 35 25% 78%;
-  --ring: 142 35% 30%;
-
-  --radius: 1.25rem;
-
-  --tree-bark: 25 35% 30%;
-  --leaf-light: 90 30% 55%;
-  --leaf-dark: 142 35% 25%;
-  --sun-cream: 42 45% 90%;
 }

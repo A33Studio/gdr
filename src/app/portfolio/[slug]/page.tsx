@@ -24,7 +24,7 @@ export default async function PortfolioProjectPage({ params }: { params: Promise
 	if (!project) notFound();
 
 	return (
-		<main className="mx-auto w-full max-w-6xl px-6 py-12 sm:py-16 space-y-14 sm:space-y-20">
+		<main className="mx-auto w-full max-w-6xl px-6 pt-24 sm:pt-28 pb-12 sm:pb-16 space-y-14 sm:space-y-20">
 			<ProjectHero project={project} />
 
 			<section className="max-w-3xl space-y-4">

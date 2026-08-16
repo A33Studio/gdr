@@ -3,7 +3,7 @@ import { portfolioProjects } from "@/data/portfolio";
 
 export default function PortfolioOverviewPage() {
 	return (
-		<main className="mx-auto w-full max-w-6xl px-6 py-12 sm:py-16 space-y-16 sm:space-y-24">
+		<main className="mx-auto w-full max-w-6xl px-6 pt-24 sm:pt-28 pb-12 sm:pb-16 space-y-16 sm:space-y-24">
 			<section className="space-y-4 max-w-2xl">
 				<span className="inline-block rounded-full bg-primary/10 text-primary px-3 py-1 text-xs font-semibold tracking-wide uppercase">
 					Portfolio

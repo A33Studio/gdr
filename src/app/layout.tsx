@@ -1,13 +1,21 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Fredoka, Quicksand } from 'next/font/google'
 import { ThemeProvider } from '@/components/theme-provider'
+import { PillNav } from '@/components/pill-nav'
 import { DATA } from '@/data/resume'
 import { cn } from '@/lib/utils'
 import './globals.css'
-import { Suspense } from 'react'
 
-const inter = Inter({
+const fredoka = Fredoka({
 	subsets: ['latin'],
+	weight: ['500', '600', '700'],
+	variable: '--font-fredoka',
+})
+
+const quicksand = Quicksand({
+	subsets: ['latin'],
+	weight: ['400', '500', '600', '700'],
+	variable: '--font-quicksand',
 })
 
 export const metadata: Metadata = {
@@ -53,10 +61,13 @@ export default function RootLayout({
 			<body
 				className={cn(
 					'min-h-screen bg-background font-sans antialiased',
-					inter.className,
+					fredoka.variable,
+					quicksand.variable,
+					quicksand.className,
 				)}
 			>
 				<ThemeProvider attribute="class" defaultTheme="light">
+					<PillNav />
 					{children}
 				</ThemeProvider>
 			</body>

@@ -1,5 +1,5 @@
 import { ExperienceCard } from '@/components/experience-card'
-import { ResumeCard } from '@/components/resume-card'
+import { EducationCard } from '@/components/education-card'
 import { ProjectCard } from '@/components/project-card'
 import { ScrollToTopButton } from '@/components/scroll-to-top-button'
 import { DATA } from '@/data/resume'
@@ -9,23 +9,28 @@ import { BlurFade } from '@/components/blur-fade'
 import BlurFadeText from '@/components/blur-fade-text'
 import { Button } from '@/components/button'
 import { Icons } from '@/components/icons'
+import { BorderBeam } from '@/components/magicui/border-beam'
+import { DotPattern } from '@/components/magicui/dot-pattern'
+import { ShinyButton } from '@/components/magicui/shiny-button'
 import { ArrowRightIcon, FileTextIcon } from 'lucide-react'
+import Link from 'next/link'
 import Markdown from 'react-markdown'
 
 const BLUR_FADE_DELAY = 0.04
 
 export default function Page() {
 	return (
-		<main className="mx-auto w-full max-w-2xl lg:max-w-5xl xl:max-w-6xl flex flex-col min-h-[100dvh] space-y-12 py-12 sm:py-24 px-6">
+		<main className="mx-auto w-full max-w-2xl lg:max-w-5xl xl:max-w-6xl flex flex-col min-h-[100dvh] space-y-12 pt-24 sm:pt-28 pb-12 sm:pb-24 px-6">
 
 			{/* ── Hero ── */}
-			<section id="hero">
+			<section id="hero" className="relative">
+				<DotPattern className="-z-10 [mask-image:radial-gradient(480px_circle_at_center,white,transparent)]" />
 				<div className="w-full space-y-8">
 					<div className="gap-6 flex flex-col sm:flex-row sm:justify-between sm:items-start">
 						<div className="flex-col flex flex-1 space-y-1.5">
 							<BlurFadeText
 								delay={BLUR_FADE_DELAY}
-								className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
+								className="font-heading text-3xl font-semibold tracking-tight sm:text-5xl xl:text-6xl/none"
 								yOffset={8}
 								text={` ${DATA.name} `}
 							/>
@@ -63,21 +68,48 @@ export default function Page() {
 							</div>
 						</div>
 						<BlurFade delay={BLUR_FADE_DELAY}>
-							<Avatar className="size-28 sm:size-36 lg:size-44 border-2 border-border shadow-sm">
-								<AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
-								<AvatarFallback>{DATA.initials}</AvatarFallback>
-							</Avatar>
+							<div className="relative rounded-full">
+								<Avatar className="size-28 sm:size-36 lg:size-44 border-2 border-border shadow-sm">
+									<AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
+									<AvatarFallback>{DATA.initials}</AvatarFallback>
+								</Avatar>
+								<BorderBeam size={70} duration={9} />
+							</div>
 						</BlurFade>
 					</div>
 				</div>
 			</section>
 
+			{/* ── Portfolio CTA ── */}
+			<section id="portfolio-cta">
+				<BlurFade delay={BLUR_FADE_DELAY * 3}>
+					<div className="relative overflow-hidden rounded-2xl border-2 border-dashed border-primary/30 bg-card shadow-sm p-8 text-center space-y-4">
+						<BorderBeam size={140} duration={11} />
+						<div className="inline-block rounded-full bg-primary/10 text-primary px-3 py-1 text-xs font-semibold tracking-wide uppercase">
+							Portfolio
+						</div>
+						<h2 className="font-heading text-2xl font-semibold tracking-tight">
+							See my work in depth
+						</h2>
+						<p className="text-sm text-muted-foreground max-w-md mx-auto leading-relaxed">
+							An in-depth look at my projects, CAD designs, XR prototypes, and technical work.
+						</p>
+						<Link href="/portfolio" className="inline-block mt-2">
+							<ShinyButton>
+								View Full Portfolio
+								<ArrowRightIcon className="size-4" />
+							</ShinyButton>
+						</Link>
+					</div>
+				</BlurFade>
+			</section>
+
 			{/* ── About ── */}
 			<section id="about">
-				<BlurFade delay={BLUR_FADE_DELAY * 3}>
-					<h2 className="text-xl font-bold mb-3">About</h2>
-				</BlurFade>
 				<BlurFade delay={BLUR_FADE_DELAY * 4}>
+					<h2 className="font-heading text-xl font-semibold mb-3">About</h2>
+				</BlurFade>
+				<BlurFade delay={BLUR_FADE_DELAY * 5}>
 					<div className="rounded-lg border bg-card p-4 sm:p-6 shadow-sm max-w-3xl">
 						<Markdown
 							components={{
@@ -106,18 +138,17 @@ export default function Page() {
 
 			{/* ── Education ── */}
 			<section id="education">
-				<BlurFade delay={BLUR_FADE_DELAY * 5}>
-					<h2 className="text-xl font-bold mb-3">Education</h2>
+				<BlurFade delay={BLUR_FADE_DELAY * 6}>
+					<h2 className="font-heading text-xl font-semibold mb-3">Education</h2>
 				</BlurFade>
 				<div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
 					{DATA.education.map((edu, id) => (
-						<BlurFade key={edu.school} delay={BLUR_FADE_DELAY * 6 + id * 0.05}>
-							<ResumeCard
-								href={edu.href}
+						<BlurFade key={edu.school} delay={BLUR_FADE_DELAY * 7 + id * 0.05}>
+							<EducationCard
 								logoUrl={edu.logoUrl}
 								altText={edu.school}
-								title={edu.school}
-								subtitle={edu.degree}
+								school={edu.school}
+								degree={edu.degree}
 								period={`${edu.start} – ${edu.end}`}
 								description={edu.description}
 							/>
@@ -128,12 +159,12 @@ export default function Page() {
 
 			{/* ── Relevant Coursework ── */}
 			<section id="coursework">
-				<BlurFade delay={BLUR_FADE_DELAY * 7}>
-					<h2 className="text-xl font-bold mb-3">Relevant Coursework</h2>
+				<BlurFade delay={BLUR_FADE_DELAY * 8}>
+					<h2 className="font-heading text-xl font-semibold mb-3">Relevant Coursework</h2>
 				</BlurFade>
 				<div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
 					{DATA.coursework.map((course, id) => (
-						<BlurFade key={course.code} delay={BLUR_FADE_DELAY * 8 + id * 0.05}>
+						<BlurFade key={course.code} delay={BLUR_FADE_DELAY * 9 + id * 0.05}>
 							<div className="rounded-lg border bg-card shadow-sm p-4 space-y-2 h-full">
 								<div className="flex items-center gap-2">
 									<span className="rounded-full bg-primary/10 text-primary text-[10px] font-mono font-semibold px-2 py-0.5">
@@ -150,12 +181,12 @@ export default function Page() {
 
 			{/* ── Skills ── */}
 			<section id="skills">
-				<BlurFade delay={BLUR_FADE_DELAY * 9}>
-					<h2 className="text-xl font-bold mb-3">Skills</h2>
+				<BlurFade delay={BLUR_FADE_DELAY * 10}>
+					<h2 className="font-heading text-xl font-semibold mb-3">Skills</h2>
 				</BlurFade>
 				<div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
 					{DATA.skills.map((group, id) => (
-						<BlurFade key={group.category} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
+						<BlurFade key={group.category} delay={BLUR_FADE_DELAY * 11 + id * 0.05}>
 							<div className="rounded-lg border bg-card shadow-sm p-4 h-full space-y-2.5">
 								<h3 className="text-xs font-semibold uppercase tracking-wide text-muted-foreground/80">
 									{group.category}
@@ -175,9 +206,9 @@ export default function Page() {
 
 			{/* ── Work Experience ── */}
 			<section id="experience">
-				<BlurFade delay={BLUR_FADE_DELAY * 11}>
+				<BlurFade delay={BLUR_FADE_DELAY * 12}>
 					<div className="flex items-center justify-between mb-3">
-						<h2 className="text-xl font-bold">Work Experience</h2>
+						<h2 className="font-heading text-xl font-semibold">Work Experience</h2>
 						<div className="hidden sm:flex items-center gap-3 text-[11px] text-muted-foreground">
 							<span className="flex items-center gap-1">
 								<span className="inline-block w-2.5 h-2.5 rounded-full bg-blue-400" />
@@ -192,7 +223,7 @@ export default function Page() {
 				</BlurFade>
 				<div className="grid grid-cols-1 lg:grid-cols-2 gap-3">
 					{DATA.extracurriculars.filter(i => i.type !== 'club').map((item, id) => (
-						<BlurFade key={item.org + item.start} delay={BLUR_FADE_DELAY * 12 + id * 0.05}>
+						<BlurFade key={item.org + item.start} delay={BLUR_FADE_DELAY * 13 + id * 0.05}>
 							<ExperienceCard
 								org={item.org}
 								href={item.href || undefined}
@@ -212,9 +243,9 @@ export default function Page() {
 
 			{/* ── Activities & Clubs ── */}
 			<section id="activities">
-				<BlurFade delay={BLUR_FADE_DELAY * 13}>
+				<BlurFade delay={BLUR_FADE_DELAY * 14}>
 					<div className="flex items-center justify-between mb-3">
-						<h2 className="text-xl font-bold">Activities & Clubs</h2>
+						<h2 className="font-heading text-xl font-semibold">Activities & Clubs</h2>
 						<div className="hidden sm:flex items-center gap-3 text-[11px] text-muted-foreground">
 							<span className="flex items-center gap-1">
 								<span className="inline-block w-2.5 h-2.5 rounded-full bg-emerald-400" />
@@ -225,7 +256,7 @@ export default function Page() {
 				</BlurFade>
 				<div className="grid grid-cols-1 lg:grid-cols-2 gap-3">
 					{DATA.extracurriculars.filter(i => i.type === 'club').map((item, id) => (
-						<BlurFade key={item.org + item.start} delay={BLUR_FADE_DELAY * 14 + id * 0.05}>
+						<BlurFade key={item.org + item.start} delay={BLUR_FADE_DELAY * 15 + id * 0.05}>
 							<ExperienceCard
 								org={item.org}
 								href={item.href || undefined}
@@ -245,12 +276,12 @@ export default function Page() {
 
 			{/* ── Projects ── */}
 			<section id="projects">
-				<BlurFade delay={BLUR_FADE_DELAY * 15}>
-					<h2 className="text-xl font-bold mb-3">Projects</h2>
+				<BlurFade delay={BLUR_FADE_DELAY * 16}>
+					<h2 className="font-heading text-xl font-semibold mb-3">Projects</h2>
 				</BlurFade>
 				<div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
 					{DATA.projects.map((project, id) => (
-						<BlurFade key={project.title} delay={BLUR_FADE_DELAY * 16 + id * 0.05}>
+						<BlurFade key={project.title} delay={BLUR_FADE_DELAY * 17 + id * 0.05}>
 							<ProjectCard
 								title={project.title}
 								href={project.href}
@@ -263,29 +294,6 @@ export default function Page() {
 						</BlurFade>
 					))}
 				</div>
-			</section>
-
-			{/* ── Portfolio CTA ── */}
-			<section id="portfolio-cta">
-				<BlurFade delay={BLUR_FADE_DELAY * 17}>
-					<div className="rounded-xl border-2 border-dashed border-primary/30 bg-card shadow-sm p-8 text-center space-y-4">
-						<div className="inline-block rounded-full bg-primary/10 text-primary px-3 py-1 text-xs font-semibold tracking-wide uppercase">
-							Portfolio
-						</div>
-						<h2 className="text-2xl font-bold tracking-tight">
-							See my work in depth
-						</h2>
-						<p className="text-sm text-muted-foreground max-w-md mx-auto leading-relaxed">
-							An in-depth look at my projects, CAD designs, XR prototypes, and technical work.
-						</p>
-						<a href="/portfolio">
-							<Button className="gap-2 mt-2">
-								View Full Portfolio
-								<ArrowRightIcon className="size-4" />
-							</Button>
-						</a>
-					</div>
-				</BlurFade>
 			</section>
 
 			<ScrollToTopButton />
