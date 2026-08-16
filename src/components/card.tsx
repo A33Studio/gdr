@@ -40,7 +40,7 @@ const CardTitle = ({
   className,
   ...props
 }: React.HTMLAttributes<HTMLHeadingElement> & {
-  ref: React.RefObject<HTMLParagraphElement>;
+  ref?: React.RefObject<HTMLParagraphElement>;
 }) => (
   <h3
     ref={ref}

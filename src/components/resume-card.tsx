@@ -2,11 +2,12 @@
 
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/avatar';
 import { Badge } from '@/components/badge';
-import { Card, CardHeader } from '@/components/card';
+import { Card } from '@/components/card';
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 import { ChevronRightIcon } from "lucide-react";
 import Link from "next/link";
+import Markdown from "react-markdown";
 import React from "react";
 
 interface ResumeCardProps {
@@ -17,6 +18,7 @@ interface ResumeCardProps {
   href?: string;
   badges?: readonly string[];
   period: string;
+  location?: string;
   description?: string;
 }
 
@@ -28,6 +30,7 @@ export const ResumeCard = ({
   href,
   badges,
   period,
+  location,
   description,
 }: ResumeCardProps) => {
   const [isExpanded, setIsExpanded] = React.useState(false);
@@ -74,12 +77,14 @@ export const ResumeCard = ({
                     ))}
                   </span>
                 )}
-                <ChevronRightIcon
-                  className={cn(
-                    "size-4 shrink-0 transform transition-all duration-300 ease-out",
-                    isExpanded ? "rotate-90" : "rotate-0"
-                  )}
-                />
+                {description && (
+                  <ChevronRightIcon
+                    className={cn(
+                      "size-4 shrink-0 transform transition-all duration-300 ease-out",
+                      isExpanded ? "rotate-90" : "rotate-0"
+                    )}
+                  />
+                )}
               </h3>
               <div className="text-xs sm:text-sm tabular-nums text-muted-foreground shrink-0">
                 {period}
@@ -88,6 +93,11 @@ export const ResumeCard = ({
             {subtitle && (
               <div className="font-sans text-xs text-muted-foreground mt-1">
                 {subtitle}
+              </div>
+            )}
+            {location && (
+              <div className="font-sans text-xs text-muted-foreground/70 mt-0.5">
+                {location}
               </div>
             )}
             {description && (
@@ -102,9 +112,19 @@ export const ResumeCard = ({
                   duration: 0.3,
                   ease: "easeInOut",
                 }}
-                className="overflow-hidden text-xs sm:text-sm text-muted-foreground"
+                className="overflow-hidden"
               >
-                {description}
+                <Markdown
+                  components={{
+                    p: ({ children }) => (
+                      <p className="prose max-w-full text-pretty font-sans text-xs sm:text-sm text-muted-foreground dark:prose-invert">
+                        {children}
+                      </p>
+                    ),
+                  }}
+                >
+                  {description}
+                </Markdown>
               </motion.div>
             )}
           </div>
