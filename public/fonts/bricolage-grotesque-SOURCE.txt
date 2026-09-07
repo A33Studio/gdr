@@ -1,0 +1,8 @@
+Bricolage Grotesque variable font
+Source: https://github.com/google/fonts/tree/main/ofl/bricolagegrotesque
+Copyright 2022 The Bricolage Grotesque Project Authors
+License: SIL Open Font License 1.1 (bricolage-grotesque-OFL.txt)
+
+The official TTF was encoded as WOFF2 without subsetting.
+All 597 glyphs and variable axes are preserved:
+Weight: 200–800; width: 75–100; optical size: 12–96.
