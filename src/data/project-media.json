@@ -3,26 +3,52 @@
     {
       "src": "/projects/tadpole/gimbal-isometric.png",
       "alt": "Tadpole gimbal and actuator assembly, isometric CAD view",
-      "caption": "Isometric CAD view of Tadpole\u2019s engine, gimbal, and actuator mounting assembly.",
-      "section": null
+      "caption": "Isometric CAD view of Tadpole’s engine, gimbal, and actuator mounting assembly.",
+      "section": null,
+      "width": 768,
+      "height": 848
     },
     {
       "src": "/projects/tadpole/gimbal-side.png",
       "alt": "Tadpole gimbal and actuator assembly, side CAD view",
       "caption": "Side CAD view showing the actuator arrangement around the engine and gimbal.",
-      "section": "challenge"
+      "section": "challenge",
+      "width": 768,
+      "height": 836
     },
     {
       "src": "/projects/tadpole/force-vs-y.png",
       "alt": "MATLAB retract, extend, and peak force plots versus y position",
-      "caption": "MATLAB force comparison across y mount positions, with x position encoded by color. The supplied study specifies a 7\u00b0 angle, 12.29 in length, \u00b10.88 in stroke, and 90 lbf limit.",
-      "section": "method"
+      "caption": "MATLAB force comparison across y mount positions, with x position encoded by color. The supplied study specifies a 7° angle, 12.29 in length, ±0.88 in stroke, and 90 lbf limit.",
+      "section": "method",
+      "width": 1746,
+      "height": 674
     },
     {
       "src": "/projects/tadpole/force-vs-x.png",
       "alt": "MATLAB retract, extend, and peak force plots versus x position",
       "caption": "Companion MATLAB force comparison across x mount positions, with y position encoded by color.",
-      "section": "selection"
+      "section": "selection",
+      "width": 1745,
+      "height": 675
+    }
+  ],
+  "humanoid-robot-club": [
+    {
+      "src": "/projects/robotic-hand/assembled-prototype.png",
+      "alt": "Assembled robotic hand prototype on a workbench, showing finger linkages, palm enclosure, and wiring",
+      "caption": "Assembled robotic-hand prototype on the workbench. The visible finger linkages connect the articulated segments above the palm enclosure.",
+      "section": null,
+      "width": 345,
+      "height": 544
+    },
+    {
+      "src": "/projects/robotic-hand/hand-cad.png",
+      "alt": "CAD model of the robotic hand with linked finger segments, palm enclosure, and actuator assembly",
+      "caption": "Robotic-hand CAD assembly showing the articulated finger linkages, their pivot connections, and the palm enclosure.",
+      "section": "iteration",
+      "width": 362,
+      "height": 575
     }
   ]
 }

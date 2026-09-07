@@ -1605,3 +1605,18 @@
     padding: 48px 24px;
   }
 }
+.cover-caption {
+  margin-top: 14px;
+  max-width: 850px;
+  font-size: 13px;
+  line-height: 1.7;
+  color: #68717e;
+}
+.cover-caption a {
+  color: #2545d4;
+  white-space: nowrap;
+}
+.reveal[data-pending=true]:focus-within {
+  opacity: 1;
+  translate: none;
+}

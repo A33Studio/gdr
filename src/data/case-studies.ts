@@ -47,6 +47,8 @@ export type CaseStudy = {
         alt: string;
         caption: string;
         section?: string | null;
+        width?: number;
+        height?: number;
     }[];
 };
 export const caseStudies: CaseStudy[] = [
