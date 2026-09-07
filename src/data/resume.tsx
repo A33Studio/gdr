@@ -7,7 +7,7 @@ export const DATA = {
     location: "West Lafayette, IN",
     locationLink: "https://www.google.com/maps/place/west+lafayette+in",
     description:
-        "Aerospace Engineering student at Purdue | Co-Founder of PlayAR | Private Pilot",
+        "Aerospace Engineering student at Purdue | PlayAR Co-Founder (2023–2026) | Private Pilot",
     navbar: [
         {
             href: "/",
@@ -100,7 +100,7 @@ export const DATA = {
             start: "Aug 2025",
             end: null,
             description:
-                "Leading a 1,500+ member organization across 3 technical subteams, setting club strategy, sponsor relationships, and technical project direction. As President of StarkHacks, an HRC program, ran operations for a 36-hour hardware hackathon with 750 attendees — the largest by attendance found in public records — owning venue contracting at the Purdue Armory, catering, AV/production, dedicated participant Wi-Fi, and parking logistics. Designed all 5 finger linkages, enclosure, and actuator/servo wiring for a fully articulated robotic hand, choosing linkage actuation over cable-driven for grip strength and field repairability; delivered 3 CAD iterations and 2 assembled prototypes, with the current prototype verified grasping 2 lb payloads in ongoing testing. Presented hand design research at Purdue's fall and spring undergraduate research conferences, recognized with \"Presentations with Distinction\" at both.",
+                "Leading a 1,500+ member organization across 3 technical subteams, setting club strategy, sponsor relationships, and technical project direction. As President of StarkHacks, an HRC program, ran operations for a 36-hour hardware hackathon with 750 attendees — owning venue contracting at the Purdue Armory, catering, AV/production, dedicated participant Wi-Fi, and parking logistics. Designed all 5 finger linkages, enclosure, and actuator/servo wiring for a fully articulated robotic hand, choosing linkage actuation over cable-driven for grip strength and field repairability; delivered 3 CAD iterations and 2 assembled prototypes, with the current prototype verified grasping 2 lb payloads in ongoing testing. Presented hand design research at Purdue's fall and spring undergraduate research conferences, recognized with \"Presentations with Distinction\" at both.",
         },
         {
             org: "Purdue Space Program",
@@ -113,7 +113,7 @@ export const DATA = {
             start: "Aug 2025",
             end: null,
             description:
-                "Designing the actuator mounting scheme for a gimbaled thrust vector control system on PSP's Tadpole rocket; wrote a MATLAB tool evaluating 250+ candidate mount point sets against actuator stroke and torque constraints using engine geometry extracted from NX CAD, narrowing to 3 configurations now in final design and fabrication. Building a Level 1 and Level 2 high-power rocket (kit build, OpenRocket simulation, team mentorship) toward NAR/Tripoli certification as part of PSP's high-power rocketry subteam.",
+                "Designing the actuator mounting scheme for a gimbaled thrust vector control system on PSP's Tadpole rocket; wrote a MATLAB tool evaluating 250+ candidate mount point sets against actuator stroke and torque constraints using engine geometry extracted from NX CAD, narrowing to 3 configurations, with the selected configuration now in final design and fabrication. Building a Level 1 and Level 2 high-power rocket (kit build, OpenRocket simulation, team mentorship) toward NAR/Tripoli certification as part of PSP's high-power rocketry subteam.",
         },
         {
             org: "PlayAR",
@@ -126,7 +126,7 @@ export const DATA = {
             start: "Oct 2023",
             end: "June 2026",
             description:
-                "Co-founded PlayAR, an XR football training platform on Meta Quest Pro letting players run reps against virtual opponents in first-person; own product direction and work alongside the dev team on animation and movement UI, translating coach feedback into build requirements. Piloted the prototype with our high school football team, running live play-throws against virtual players — coaches responded positively, with several continuing to integrate AR tools into practice. Advanced to the Diamond Challenge semifinal round as a top-600 team (2024) and to the Limitless Global Summit as a top-50 team (2025).",
+                "Co-founded PlayAR, an XR football training platform on Meta Quest Pro letting players run reps against virtual opponents in first-person; owned product direction and worked alongside the dev team on animation and movement UI, translating coach feedback into build requirements. Piloted the prototype with our high school football team, running live play-throws against virtual players — coaches responded positively, with several continuing to integrate AR tools into practice. Advanced to the Diamond Challenge semifinal round as a top-600 team (2024) and to the Limitless Global Summit as a top-50 team (2025).",
         },
         {
             org: "Presidential Aviation",
@@ -165,7 +165,7 @@ export const DATA = {
             start: "Aug 2021",
             end: "May 2025",
             description:
-                "Led a chapter of 120+ students that consecutively placed in the largest STEM academic competition in the world. Presided over 80 Middle & High School state and national competitive events against 350k+ students.",
+                "Led a chapter of 120+ students that consecutively placed in a national STEM competition. Presided over 80 Middle & High School state and national competitive events against 350k+ students.",
         },
         {
             org: "Computer Science Club",
@@ -200,52 +200,6 @@ export const DATA = {
             start: "Aug 2022",
             end: "May 2025",
             description: "GPA: 3.75 / 4.0 · Honor Roll · AP Scholar · National Beta Club · National Spanish Honor Society",
-        },
-    ],
-
-    projects: [
-        {
-            title: "PlayAR",
-            href: "https://www.playar.co",
-            dates: "Oct 2023 - June 2026",
-            description:
-                "Co-founded and developed an XR football training platform on Meta Quest Pro letting players practice against virtual opponents in first-person. Advanced to the Limitless Global Summit (top 50 globally) in the Diamond Challenge 2025.",
-            technologies: ["Unity", "Blender", "XCode", "Meta Quest Pro"],
-            links: [
-                {
-                    type: "Pitch Deck",
-                    href: "https://docs.google.com/presentation/d/1pbsgbrwc9KYLjBC6ZxLTzBz8PtyZjXXFJ-c1P15T4ng/edit?usp=sharing",
-                },
-                { type: "Website", href: "https://www.playar.co" },
-            ],
-            image: "/playar.jpg",
-        },
-        {
-            title: "Grief Lift",
-            href: "https://grieflift.org",
-            dates: "June 2024 - June 2025",
-            active: true,
-            description:
-                "Designed and developed a full-stack website for a grief support startup, enabling users to privately connect with others in similar situations through a secure community platform.",
-            technologies: ["Next.js", "Supabase", "Cloudflare", "TypeScript"],
-            links: [{ type: "Website", href: "https://grieflift.org" }],
-            image: "/grief.jpg",
-        },
-        {
-            title: "Drip",
-            href: "",
-            dates: "Oct 2022 - March 2023",
-            active: true,
-            description:
-                "Designed and prototyped a fully biodegradable water filter using sawdust as the structural body and standard filtration materials, creating an affordable clean-water solution.",
-            technologies: ["Fusion 360", "3D Printing"],
-            links: [
-                {
-                    type: "Pitch Deck",
-                    href: "https://docs.google.com/presentation/d/1sjB9RvOxtJzkoUPoDK-bpkYN6qxqmXUwVFXHsULh0xM/edit?usp=sharing",
-                },
-            ],
-            image: "/drip.jpg",
         },
     ],
 

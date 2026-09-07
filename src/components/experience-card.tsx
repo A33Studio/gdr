@@ -48,7 +48,7 @@ export function ExperienceCard({
   const content = (
     <div
       className={cn(
-        "rounded-lg border bg-card shadow-sm flex gap-4 p-4 border-l-4 transition-shadow hover:shadow-md",
+        "h-full rounded-lg border bg-card shadow-sm flex gap-4 p-4 border-l-4 transition-shadow hover:shadow-md",
         styles.border
       )}
     >
@@ -60,7 +60,7 @@ export function ExperienceCard({
           </AvatarFallback>
         </Avatar>
       </div>
-      <div className="flex-grow min-w-0">
+      <div className="flex-grow min-w-0 flex flex-col">
         <div className="flex items-start justify-between gap-3 flex-wrap">
           <div className="min-w-0">
             <div className="flex items-center gap-2 flex-wrap">
@@ -93,7 +93,7 @@ export function ExperienceCard({
 
   if (href) {
     return (
-      <Link href={href} target="_blank" rel="noopener noreferrer" className="block">
+      <Link href={href} target="_blank" rel="noopener noreferrer" className="block h-full">
         {content}
       </Link>
     );

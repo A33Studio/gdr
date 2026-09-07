@@ -1,33 +1,5 @@
-import { ProjectHero } from "@/components/portfolio/project-hero";
-import { portfolioProjects } from "@/data/portfolio";
-
-export default function PortfolioOverviewPage() {
-	return (
-		<main className="mx-auto w-full max-w-6xl px-6 pt-24 sm:pt-28 pb-12 sm:pb-16 space-y-16 sm:space-y-24">
-			<section className="space-y-4 max-w-2xl">
-				<span className="inline-block rounded-full bg-primary/10 text-primary px-3 py-1 text-xs font-semibold tracking-wide uppercase">
-					Portfolio
-				</span>
-				<h1 className="font-heading text-4xl sm:text-5xl font-semibold tracking-tight">
-					The technical work, in depth
-				</h1>
-				<p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-					A closer look at the projects behind my resume — from CAD and additive manufacturing to
-					XR software and full-stack builds. Pick a project below to see the process, the diagrams,
-					and the details that don't fit on a one-page resume.
-				</p>
-			</section>
-
-			<div className="space-y-16 sm:space-y-24">
-				{portfolioProjects.map((project, i) => (
-					<ProjectHero
-						key={project.slug}
-						project={project}
-						reverse={i % 2 === 1}
-						href={`/portfolio/${project.slug}`}
-					/>
-				))}
-			</div>
-		</main>
-	);
-}
+import type { Metadata } from 'next';
+import { caseStudies } from '@/data/case-studies';
+import { WorkCard } from '@/components/work-card';
+export const metadata: Metadata = { title: 'Selected work', description: 'Engineering and design projects by Gabriel Duarte Rengifo: aerospace, robotics, additive manufacturing, XR, and product development.' };
+export default function Portfolio() { return <main id="main" className="wrap"><section className="page-intro"><p className="eyebrow">The portfolio / {String(caseStudies.length).padStart(2, '0')} projects</p><h1>Ideas, worked<br />into <span className="serif">reality.</span></h1><div className="intro-bottom"><p>Engineering and design, from the first constraint to the latest prototype. A closer look at what I made, how I approached it, and what came out of the work.</p><span className="mono">AEROSPACE · HARDWARE · DIGITAL</span></div></section><div className="work-grid portfolio-grid">{caseStudies.map((project, i) => <WorkCard key={project.slug} project={project} index={i}/>)}</div><section className="project-index section"><div className="section-heading"><div><p className="eyebrow">A quick reference</p><h2>The complete index.</h2></div></div>{caseStudies.map((p, i) => <a href={`/portfolio/${p.slug}/`} className="index-row" key={p.slug}><span className="mono">{String(i + 1).padStart(2, '0')}</span><span>{p.title}</span><span className="index-category">{p.category}</span><span className="mono">{p.year} ↗</span></a>)}</section></main>; }

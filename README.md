@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Gabriel Duarte Rengifo — Engineering & Design
 
-## Getting Started
+Personal portfolio built with Next.js, React, TypeScript, and Tailwind CSS.
 
-First, run the development server:
+## Run locally
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- `bun run dev` starts the development server.
+- `bunx tsc --noEmit` checks TypeScript.
+- `bun run build` checks types and exports all pages to `out/`.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Content
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- `src/data/resume.tsx`: education, experience, coursework, skills, and contact details.
+- `src/data/case-studies.ts`: project case studies and their editorial structure.
+- `src/data/project-media.json`: supplied project imagery, captions, and placement.
+- `public/resume.pdf`: the downloadable résumé supplied on September 7, 2026.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Each project has an overview, role, timeline, status, key decision, detailed chapters,
+and outcome. To add an image, copy it into `public/projects/<project>/` and add a
+media entry keyed by the project slug. The first image appears on the project card
+and case study cover. Use a `section` matching a chapter ID to place another image
+inside the narrative. Keep captions specific, and distinguish personal work from
+team scope. Record only documented results; ongoing certifications stay in progress.
 
-## Learn More
+## Routes
 
-To learn more about Next.js, take a look at the following resources:
+- `/`: introduction, selected work, experience highlights.
+- `/portfolio/`: complete project collection and compact index.
+- `/portfolio/<slug>/`: individual case studies.
+- `/resume/`: expanded résumé, with print styles and original PDF download.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The site is statically exported and requires no application database or API keys.
+Fonts are served locally. Navigation and all content work without JavaScript;
+optional scroll reveals respect reduced-motion preferences.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Revision sources
 
-## Deploy on Vercel
+This iteration retains the existing portfolio's six projects and adds StarkHacks
+and high-power rocketry from the supplied résumé. Tadpole CAD views and MATLAB
+plots were supplied in the Desktop `Portfolio Assets` folder. Other project photos
+and detailed test documentation can be integrated as they become available.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The previous working files, including uncommitted edits, were backed up locally
+before the redesign. This iteration lives on `codex/portfolio-revamp`.

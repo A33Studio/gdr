@@ -1,3 +1,5 @@
+// Legacy source content retained from the previous portfolio.
+// The redesigned routes use case-studies.ts and project-media.json.
 export interface RoadmapStage {
 	id: string;
 	title: string;
@@ -349,7 +351,3 @@ export const portfolioProjects: readonly PortfolioProject[] = [
 		],
 	},
 ] as const;
-
-export function getPortfolioProject(slug: string): PortfolioProject | undefined {
-	return portfolioProjects.find((project) => project.slug === slug);
-}
