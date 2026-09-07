@@ -1,0 +1,109 @@
+{
+  "slug": "purdue-space-program",
+  "title": "Tadpole · Thrust vector control",
+  "headline": "Making thrust steerable.",
+  "description": "Actuator mounting design and constraint evaluation for Purdue Space Program’s Tadpole rocket.",
+  "category": "Aerospace",
+  "organization": "Purdue Space Program",
+  "dates": "Aug 2025 · Present",
+  "year": "2025–present",
+  "role": "Active Controls Propulsion subteam member",
+  "status": "Final design & fabrication",
+  "theme": "dark",
+  "coverLabel": "Thrust vector control",
+  "coverValue": "Tadpole",
+  "coverFoot": "NX + MATLAB / Mount configuration study",
+  "tags": [
+    "Siemens NX",
+    "MATLAB",
+    "Mechanical design",
+    "Thrust vector control"
+  ],
+  "facts": [
+    {
+      "value": "250+",
+      "label": "Candidate mount sets evaluated"
+    },
+    {
+      "value": "3",
+      "label": "Configurations shortlisted"
+    },
+    {
+      "value": "1",
+      "label": "Selected configuration"
+    }
+  ],
+  "overview": "On Tadpole, a gimbaled engine changes the direction of thrust. My contribution is the actuator mounting scheme: choosing where the actuators connect so the system works within its available geometry, actuator stroke, and maximum torque constraints. I developed a MATLAB evaluation tool to compare candidate mounting arrangements using engine profile geometry extracted from NX CAD.",
+  "decision": {
+    "title": "Start with the actual engine envelope.",
+    "body": "I used profile geometry extracted from the NX model to evaluate mount locations against the available geometry and actuator constraints. The mounting decision could then be made from a comparison of candidate configurations."
+  },
+  "chapters": [
+    {
+      "id": "challenge",
+      "title": "The mounting problem",
+      "paragraphs": [
+        "A thrust vector control system relies on a mechanical relationship between the engine, gimbal, and actuators. Changing a mount position changes that relationship. The mounting arrangement therefore needed to be evaluated alongside the actuator stroke and torque constraints.",
+        "My scope was the actuator mounting scheme and the tool used to compare mount point sets within the team’s existing engine geometry."
+      ],
+      "points": [
+        "Use the engine profile geometry from Siemens NX.",
+        "Evaluate candidate mount point sets against actuator stroke constraints.",
+        "Check maximum torque constraints before narrowing the configuration set."
+      ]
+    },
+    {
+      "id": "method",
+      "title": "From CAD geometry to a comparison tool",
+      "paragraphs": [
+        "I extracted the engine profile from NX CAD and brought that geometry into a MATLAB tool. The tool evaluated more than 250 candidate mount point sets against the actuator constraints.",
+        "This connected the geometry work and the configuration search in one workflow: extract the profile, evaluate the candidate set, then narrow the arrangements for final design."
+      ]
+    },
+    {
+      "id": "selection",
+      "title": "Narrowing the design space",
+      "paragraphs": [
+        "The evaluation narrowed more than 250 candidate mount point sets to three configurations. From that shortlist, one configuration was selected for final design and fabrication.",
+        "The selection is a design milestone. Fabrication and integration are the next stages of the project; flight performance is not yet a reported result."
+      ]
+    }
+  ],
+  "outcome": "A MATLAB evaluation of 250+ candidate mount point sets produced a three-configuration shortlist. The selected arrangement is in final design and fabrication.",
+  "links": [],
+  "media": [
+    {
+      "src": "/projects/tadpole/gimbal-isometric.png",
+      "alt": "Tadpole gimbal and actuator assembly, isometric CAD view",
+      "caption": "Isometric CAD view of Tadpole’s engine, gimbal, and actuator mounting assembly.",
+      "section": null,
+      "width": 768,
+      "height": 848
+    },
+    {
+      "src": "/projects/tadpole/gimbal-side.png",
+      "alt": "Tadpole gimbal and actuator assembly, side CAD view",
+      "caption": "Side CAD view showing the actuator arrangement around the engine and gimbal.",
+      "section": "challenge",
+      "width": 768,
+      "height": 836
+    },
+    {
+      "src": "/projects/tadpole/force-vs-y.png",
+      "alt": "MATLAB retract, extend, and peak force plots versus y position",
+      "caption": "MATLAB force comparison across y mount positions, with x position encoded by color. The supplied study specifies a 7° angle, 12.29 in length, ±0.88 in stroke, and 90 lbf limit.",
+      "section": "method",
+      "width": 1746,
+      "height": 674
+    },
+    {
+      "src": "/projects/tadpole/force-vs-x.png",
+      "alt": "MATLAB retract, extend, and peak force plots versus x position",
+      "caption": "Companion MATLAB force comparison across x mount positions, with y position encoded by color.",
+      "section": "selection",
+      "width": 1745,
+      "height": 675
+    }
+  ],
+  "icon": "orbit"
+}

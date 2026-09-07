@@ -1,13 +1,15 @@
-import Link from 'next/link';
-import { ArrowDown, ArrowUpRight } from 'lucide-react';
-import { caseStudies } from '@/data/case-studies';
-import { WorkCard } from '@/components/work-card';
-export default function Home() {
-    return <main id="main" className="wrap">
-    <section className="hero"><div><p className="hero-name">Gabriel Duarte Rengifo</p><p className="eyebrow"><span className="dot"/>Purdue University · Aerospace Engineering</p><h1>Engineering, with<br />a <span className="serif">designer’s eye.</span></h1><p className="hero-copy">I’m an aerospace engineering student, builder, and private pilot. I bring ideas into the physical world—from rocket controls and robotic hands to the tools that help aircraft take shape.</p><div className="hero-links"><a className="button-link" href="#work">Explore my work <ArrowDown size={16}/></a><Link className="text-link" href="/resume">The extended résumé <ArrowUpRight size={16}/></Link></div></div><figure className="portrait"><img src="/me.jpg" width="552" height="690" alt="Gabriel Duarte Rengifo" fetchPriority="high"/><figcaption className="mono"><span>Engineer. Designer. Pilot.</span><span>01 / GDR</span></figcaption></figure></section>
-    <div className="credentials-line"><span><strong>B.S. Aeronautical & Astronautical Engineering</strong> · 2029</span><span>Purdue University</span><span>FAA Private Pilot</span></div>
-    <section className="section" id="work"><div className="section-heading"><div><p className="eyebrow">01 / Selected work</p><h2>From idea to something real.</h2></div><Link href="/portfolio" className="text-link">All {caseStudies.length} projects <ArrowUpRight size={16}/></Link></div><div className="work-grid">{caseStudies.slice(0, 4).map((p, i) => <WorkCard key={p.slug} project={p} index={i}/>)}</div></section>
-    <section className="section experience-preview"><div className="section-heading"><div><p className="eyebrow">02 / Along the way</p><h2>A few places I’ve contributed.</h2></div><Link className="text-link" href="/resume">Full résumé <ArrowUpRight size={16}/></Link></div>{[{ org: 'Gulfstream Aerospace', role: 'Additive Manufacturing Lab Test Intern', date: '2026', slug: 'gulfstream-aerospace' }, { org: 'Humanoid Robot Club', role: 'President · Purdue University', date: '2025 — Present', slug: 'humanoid-robot-club' }, { org: 'Purdue Space Program', role: 'Active Controls Propulsion & High Power Rocketry', date: '2025 — Present', slug: 'purdue-space-program' }].map(e => <Link key={e.org} href={`/portfolio/${e.slug}/`} className="contribution-row reveal"><h3>{e.org}</h3><p>{e.role}</p><span className="mono">{e.date} ↗</span></Link>)}</section>
-    <section className="about-strip reveal"><div><p className="eyebrow">03 / A little about me</p><h2>Curiosity is the<br /><span className="serif">common thread.</span></h2></div><div><p>I study Aeronautical and Astronautical Engineering at Purdue, lead the Humanoid Robot Club, and work on rocket controls with the Purdue Space Program. I’m drawn to the point where careful analysis becomes something you can build, test, and improve.</p><Link className="text-link" href="/resume">Experience, education & everything in between <ArrowUpRight size={16}/></Link></div></section>
-    </main>;
-}
+import {ArrowDown,ArrowUpRight,Plane,GraduationCap,Sparkles} from 'lucide-react';
+import {SITE} from '@/data/site';
+import {caseStudies} from '@/data/case-studies';
+import {WorkCard} from '@/components/work-card';
+import {ProjectSection} from '@/components/project-section';
+import {FullResume} from '@/components/full-resume';
+import {ScrollNavigator} from '@/components/scroll-navigator';
+export default function Home(){return <><main id="main" className="page-wrap">
+<section id="intro" className="hero" data-nav-section><div><p className="hero-name">{SITE.identity.name}</p><p className="eyebrow"><span className="dot"/>{SITE.hero.eyebrow}</p><h1>{SITE.hero.title}<br/><span className="hero-accent">{SITE.hero.accent}</span></h1><p className="hero-copy">{SITE.hero.description}</p><div className="hero-links"><a className="button-link" href="#work">{SITE.hero.workLink}<ArrowDown size={16}/></a><a className="text-link" href="#resume">{SITE.hero.resumeLink}<ArrowUpRight size={16}/></a></div></div><figure className="portrait"><img src={SITE.identity.portrait} width="552" height="690" alt={SITE.identity.portraitAlt} fetchPriority="high"/><figcaption>{SITE.identity.portraitCaption}</figcaption></figure></section>
+<div className="credentials-line"><span><GraduationCap size={18}/><span><strong>{SITE.hero.degree}</strong><small>{SITE.hero.school} · {SITE.hero.graduation}</small></span></span><span><Plane size={18}/><span><strong>{SITE.hero.pilot}</strong><small>{SITE.hero.instrument}</small></span></span></div>
+<section id="work" className="work-index" data-nav-section><header className="section-heading"><div><p className="eyebrow">{SITE.work.eyebrow}</p><h2>{SITE.work.title}</h2><p className="section-description">{SITE.work.intro}</p></div><span className="count mono">{String(caseStudies.length).padStart(2,'0')}</span></header><div className="project-directory">{caseStudies.map((p,i)=><WorkCard project={p} index={i} key={p.slug}/>)}</div></section>
+{caseStudies.map((p,i)=><ProjectSection project={p} index={i} key={p.slug}/>)}
+<FullResume/>
+<section id="about" className="about-strip"><div><p className="eyebrow"><Sparkles size={18}/>{SITE.about.eyebrow}</p><h2>{SITE.about.title}</h2></div><p>{SITE.about.description}</p></section>
+</main><ScrollNavigator/></>}

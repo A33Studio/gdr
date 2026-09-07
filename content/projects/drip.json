@@ -1,0 +1,93 @@
+{
+  "slug": "drip",
+  "title": "Drip",
+  "headline": "Rethinking the filter body.",
+  "description": "A water-filter concept exploring a sawdust housing and a layered filtration assembly.",
+  "category": "Product design",
+  "organization": "Independent project",
+  "dates": "Oct 2022 · March 2023",
+  "year": "2022–23",
+  "role": "Designer & prototyper",
+  "status": "Concept & prototype",
+  "theme": "cream",
+  "coverLabel": "Materials / Product design",
+  "coverValue": "Drip",
+  "coverFoot": "Fusion 360 / Prototyping",
+  "tags": [
+    "Fusion 360",
+    "3D printing",
+    "Material exploration",
+    "Product design"
+  ],
+  "facts": [
+    {
+      "value": "Fusion 360",
+      "label": "Housing design"
+    },
+    {
+      "value": "$8.77",
+      "label": "Estimated unit cost in pitch deck"
+    },
+    {
+      "value": "$19.99",
+      "label": "Proposed retail price in pitch deck"
+    }
+  ],
+  "overview": "Drip explored a water-filter concept that combined a sawdust-based structural body with layered filtration materials. I led product design, working on the housing in Fusion 360 and developing prototypes through 3D printing. The pitch deck connects that mechanical concept to the reuse of fabric and an accessible proposed price.",
+  "decision": {
+    "title": "Explore a different structural material.",
+    "body": "The concept centered on sawdust for the filter body. This made the relationship between the housing geometry, material choice, and filtration components the central design problem."
+  },
+  "chapters": [
+    {
+      "id": "materials",
+      "title": "The proposed filter assembly",
+      "paragraphs": [
+        "The pitch deck shows a stacked filter assembly with synthetic-fiber layers, carbon charcoal, and KDF 55 media. Water enters at the top and passes through the assembly into a lower collection chamber.",
+        "The housing concept explored sawdust as a structural material. The design challenge was to bring the housing, media layers, and flow path together in a compact product."
+      ]
+    },
+    {
+      "id": "prototype",
+      "title": "Housing design and prototyping",
+      "paragraphs": [
+        "I used Fusion 360 to design the housing and explored the concept through 3D-printed prototypes and assembled units. My role was product design, working alongside teammates responsible for science research, marketing, and public relations.",
+        "The deck’s assembly diagram communicates the intended arrangement of the filtration layers. It documents a design concept, not a certified drinking-water performance result."
+      ]
+    },
+    {
+      "id": "business",
+      "title": "An accessible proposed price",
+      "paragraphs": [
+        "The pitch deck estimated a unit cost of $8.77 and proposed a retail price of $19.99. Its cost breakdown included synthetic fibers, sawdust, cleaning, charcoal, and KDF 55 media.",
+        "The concept paired material reuse with an affordability goal. Those numbers are pitch-stage estimates rather than achieved manufacturing costs or sales results."
+      ]
+    }
+  ],
+  "outcome": "A designed and prototyped filter concept that brought together a sawdust-based structural body, layered filtration materials, and an affordability goal.",
+  "links": [
+    {
+      "label": "Pitch deck",
+      "href": "https://docs.google.com/presentation/d/1sjB9RvOxtJzkoUPoDK-bpkYN6qxqmXUwVFXHsULh0xM/edit?usp=sharing"
+    }
+  ],
+  "media": [
+    {
+      "src": "/projects/drip/filter-concept.webp",
+      "alt": "Drip pitch-deck diagram showing the layered filter assembly",
+      "caption": "Filter concept from the original Drip pitch deck.",
+      "section": null,
+      "width": 1080,
+      "height": 608
+    },
+    {
+      "src": "/projects/drip/proposed-costs.webp",
+      "alt": "Drip pitch-deck cost breakdown and proposed retail price",
+      "caption": "The original pitch-stage cost breakdown and proposed retail price.",
+      "section": "business",
+      "width": 1080,
+      "height": 608
+    }
+  ],
+  "icon": "droplet"
+}

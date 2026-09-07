@@ -1,0 +1,96 @@
+{
+  "slug": "starkhacks",
+  "title": "StarkHacks",
+  "headline": "Making room for 750 builders.",
+  "description": "The operations behind a 36-hour in-person hardware hackathon at Purdue.",
+  "category": "Leadership",
+  "organization": "Humanoid Robot Club · Purdue",
+  "dates": "During HRC presidency · Aug 2025 · Present",
+  "year": "2025–present",
+  "role": "President · Event operations",
+  "status": "Event delivered",
+  "theme": "violet",
+  "coverLabel": "Hardware hackathon",
+  "coverValue": "750",
+  "coverUnit": "builders",
+  "coverFoot": "36 hours / Purdue Armory",
+  "tags": [
+    "Operations",
+    "Event production",
+    "Leadership",
+    "Infrastructure"
+  ],
+  "facts": [
+    {
+      "value": "750",
+      "label": "Attendees"
+    },
+    {
+      "value": "36 hours",
+      "label": "In-person hardware hackathon"
+    },
+    {
+      "value": "Armory",
+      "label": "Purdue event venue"
+    }
+  ],
+  "overview": "As President of StarkHacks, a Humanoid Robot Club program, I ran operations for a 36-hour in-person hardware hackathon with 750 attendees. I owned venue contracting at the Purdue Armory, catering, AV/production, dedicated participant Wi-Fi infrastructure, and parking logistics.",
+  "decision": {
+    "title": "Treat the event’s support systems as part of the experience.",
+    "body": "Venue, food, production, connectivity, and arrival logistics all sat within my operational scope. Dedicated participant Wi-Fi infrastructure was one of the systems needed to support the event."
+  },
+  "chapters": [
+    {
+      "id": "scope",
+      "title": "A hardware event at scale",
+      "paragraphs": [
+        "StarkHacks brought 750 attendees together for a 36-hour in-person hardware hackathon. As President, I owned the operational work that enabled the event to take place at the Purdue Armory.",
+        "The responsibility spanned contracting, production, infrastructure, and participant logistics."
+      ]
+    },
+    {
+      "id": "operations",
+      "title": "The systems behind the event",
+      "paragraphs": [
+        "I handled venue contracting at the Purdue Armory and coordinated catering, AV/production, dedicated participant Wi-Fi infrastructure, and parking logistics.",
+        "This work sat alongside my wider role leading the Humanoid Robot Club, including club strategy, sponsor relationships, and technical project direction."
+      ],
+      "points": [
+        "Purdue Armory venue contracting.",
+        "Catering and attendee support.",
+        "AV and event production.",
+        "Dedicated participant Wi-Fi infrastructure.",
+        "Parking logistics."
+      ]
+    }
+  ],
+  "outcome": "Delivered operations for a 36-hour hardware hackathon attended by 750 people.",
+  "links": [],
+  "media": [
+    {
+      "src": "/projects/starkhacks/event-floor.webp",
+      "alt": "StarkHacks attendees filling the Purdue Armory event space",
+      "caption": "The StarkHacks event floor at the Purdue Armory.",
+      "section": null,
+      "width": 1479,
+      "height": 766
+    },
+    {
+      "src": "/projects/starkhacks/hardware-build.webp",
+      "alt": "Participants working on a hardware project during StarkHacks",
+      "caption": "Participants developing a hardware project during the event.",
+      "section": "operations",
+      "width": 1600,
+      "height": 1060
+    },
+    {
+      "src": "/projects/starkhacks/project-demo.webp",
+      "alt": "A team presenting a hardware project at StarkHacks",
+      "caption": "A hardware project demonstration on the event floor.",
+      "section": "operations",
+      "width": 1112,
+      "height": 924
+    }
+  ],
+  "icon": "users"
+}

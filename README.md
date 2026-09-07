@@ -1,44 +1,44 @@
-# Gabriel Duarte Rengifo — Engineering & Design
+# Gabriel Duarte Rengifo · Engineering & Design
 
-Personal portfolio built with Next.js, React, TypeScript, and Tailwind CSS.
+A continuous-page portfolio built with Next.js, React, TypeScript, and Tailwind CSS.
+
+## Edit the text
+
+Start with [content/README.md](content/README.md).
+
+- `content/site.json`: introduction, navigation, headings, buttons, identity and footer.
+- `content/resume.json`: experience, education, skills, aviation and contact details.
+- `content/projects/`: one clearly named file per project, including stories and image captions.
+- `public/resume.pdf`: the original downloadable résumé.
+
+Text files are separate from layout code. Changes appear in the local development
+preview when saved; publishing updates the hosted site separately.
 
 ## Run locally
 
 - `bun run dev` starts the development server.
 - `bunx tsc --noEmit` checks TypeScript.
-- `bun run build` checks types and exports all pages to `out/`.
+- `bun run build` exports the site to `out/`.
 
-## Content
+## Navigation and appearance
 
-- `src/data/resume.tsx`: education, experience, coursework, skills, and contact details.
-- `src/data/case-studies.ts`: project case studies and their editorial structure.
-- `src/data/project-media.json`: supplied project imagery, captions, and placement.
-- `public/resume.pdf`: the downloadable résumé supplied on September 7, 2026.
+The home page includes the introduction, all seven detailed projects, the extended
+résumé, and contact details. Internal links jump to section anchors. Previous
+portfolio and résumé URLs redirect to their matching home-page sections, with
+fallback links when JavaScript is disabled.
 
-Each project has an overview, role, timeline, status, key decision, detailed chapters,
-and outcome. To add an image, copy it into `public/projects/<project>/` and add a
-media entry keyed by the project slug. The first image appears on the project card
-and case study cover. Use a `section` matching a chapter ID to place another image
-inside the narrative. Keep captions specific, and distinguish personal work from
-team scope. Record only documented results; ongoing certifications stay in progress.
+The theme button switches between light and dark modes, initially following the
+system setting. The chosen theme persists in the browser. The side navigator tracks
+reading progress on wide screens and becomes a compact menu on smaller screens.
+Fonts are served locally; motion respects reduced-motion preferences.
 
-## Routes
+## Content sources
 
-- `/`: introduction, selected work, experience highlights.
-- `/portfolio/`: complete project collection and compact index.
-- `/portfolio/<slug>/`: individual case studies.
-- `/resume/`: expanded résumé, with print styles and original PDF download.
+Project stories draw from the original portfolio, the supplied résumé, project
+photos and CAD views in the Desktop Portfolio Assets folder, and the supplied
+PlayAR and Drip pitch decks. Captions distinguish personal contributions from team
+context. Pitch pricing, feature plans, and proposed outcomes are labeled as such.
+Grief Lift has been removed from the collection.
 
-The site is statically exported and requires no application database or API keys.
-Fonts are served locally. Navigation and all content work without JavaScript;
-optional scroll reveals respect reduced-motion preferences.
-
-## Revision sources
-
-This iteration retains the existing portfolio's six projects and adds StarkHacks
-and high-power rocketry from the supplied résumé. Tadpole CAD views and MATLAB
-plots were supplied in the Desktop `Portfolio Assets` folder. Other project photos
-and detailed test documentation can be integrated as they become available.
-
-The previous working files, including uncommitted edits, were backed up locally
-before the redesign. This iteration lives on `codex/portfolio-revamp`.
+Original working files were backed up before the redesign. This iteration lives on
+`codex/portfolio-revamp`. Hosting configuration is in `.openai/hosting.json`.

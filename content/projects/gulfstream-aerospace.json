@@ -1,0 +1,88 @@
+{
+  "slug": "gulfstream-aerospace",
+  "title": "Gulfstream · Production tooling",
+  "headline": "Designed for the shop floor.",
+  "description": "Seven custom tooling projects, from CATIA concepts through internal customer review and delivery.",
+  "category": "Manufacturing",
+  "organization": "Gulfstream Aerospace",
+  "dates": "May 2026 · July 2026",
+  "year": "2026",
+  "role": "Additive Manufacturing Lab Test Intern",
+  "status": "Internship completed",
+  "theme": "light",
+  "coverLabel": "Additive manufacturing",
+  "coverValue": "7",
+  "coverUnit": "tools",
+  "coverFoot": "CATIA / Concept to delivery",
+  "tags": [
+    "CATIA V5",
+    "DFM/DFA",
+    "SLA",
+    "FDM",
+    "SLS"
+  ],
+  "facts": [
+    {
+      "value": "7",
+      "label": "Custom tooling projects"
+    },
+    {
+      "value": "2",
+      "label": "Adopted into production on delivery"
+    },
+    {
+      "value": "~1 month",
+      "label": "Shipment pulled ahead by one tool"
+    }
+  ],
+  "overview": "During my internship in Gulfstream’s Additive Manufacturing Lab, I designed seven custom tooling projects in CATIA. I owned each from concept through internal customer review to delivery, applying design-for-manufacturing and design-for-assembly principles. Two tools were adopted into production on delivery; one cleared a two-month work backlog and helped pull a shipment roughly one month ahead of schedule.",
+  "decision": {
+    "title": "Design around how the tool will be used.",
+    "body": "The workflow included internal customer review between concept and delivery. DFM/DFA principles and direct feedback connected each CATIA design to its manufacturing and assembly context."
+  },
+  "chapters": [
+    {
+      "id": "scope",
+      "title": "Ownership from concept through delivery",
+      "paragraphs": [
+        "The internship involved seven custom tooling projects for internal production. I designed each in CATIA and carried the work through internal customer review to delivery.",
+        "Design-for-manufacturing and design-for-assembly principles guided this work. Customer feedback was part of the design process, connecting the model to the people and workflows that would use the finished tool."
+      ]
+    },
+    {
+      "id": "manufacturing",
+      "title": "Hands-on additive manufacturing",
+      "paragraphs": [
+        "I operated SLA, FDM, and SLS additive manufacturing machines to produce shop aids and training tools for internal production. The equipment included Formlabs, Bambu, Markforged, Stratasys, and EOS machines.",
+        "The role also involved preventive maintenance on additive manufacturing equipment. Alongside the tooling projects, I redesigned the lab floor plan to open dedicated space for composite layup work."
+      ],
+      "points": [
+        "CATIA tooling design with DFM/DFA principles.",
+        "SLA, FDM, and SLS machine operation.",
+        "Internal customer review, iteration, and delivery.",
+        "Lab layout improvement and equipment preventive maintenance."
+      ]
+    },
+    {
+      "id": "impact",
+      "title": "The result on the production floor",
+      "paragraphs": [
+        "Two of the seven tooling designs were adopted into production on delivery. One cleared a two-month work backlog and pulled a shipment roughly one month ahead of schedule.",
+        "These results connect the design work to a concrete operational outcome: a tool that enabled work to move forward."
+      ]
+    }
+  ],
+  "outcome": "Delivered seven custom tooling projects. Two entered production on delivery, with one clearing a two-month backlog and advancing a shipment by roughly one month.",
+  "links": [],
+  "media": [
+    {
+      "src": "/projects/gulfstream/aircraft-visit.webp",
+      "alt": "A group beside a Gulfstream G700 aircraft indoors",
+      "caption": "A visit beside a Gulfstream G700 aircraft. This photo provides internship context rather than showing a tooling design.",
+      "section": null,
+      "width": 1600,
+      "height": 1200
+    }
+  ],
+  "icon": "wrench"
+}

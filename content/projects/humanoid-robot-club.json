@@ -1,0 +1,98 @@
+{
+  "slug": "humanoid-robot-club",
+  "title": "Articulated robotic hand",
+  "headline": "A stronger grasp.",
+  "description": "A linkage-actuated hand designed around grip strength and field repairability.",
+  "category": "Robotics",
+  "organization": "Humanoid Robot Club · Purdue",
+  "dates": "Aug 2025 · Present",
+  "year": "2025–present",
+  "role": "Mechanical designer · Club President",
+  "status": "Prototype testing",
+  "theme": "blue",
+  "coverLabel": "Robotic hand",
+  "coverValue": "2",
+  "coverUnit": "lb",
+  "coverFoot": "Verified payload / Ongoing prototype testing",
+  "tags": [
+    "Mechanical design",
+    "CAD",
+    "Linkages",
+    "Actuators",
+    "Prototyping"
+  ],
+  "facts": [
+    {
+      "value": "3",
+      "label": "CAD iterations"
+    },
+    {
+      "value": "2",
+      "label": "Assembled prototypes"
+    },
+    {
+      "value": "2 lb",
+      "label": "Verified lifting payload"
+    }
+  ],
+  "overview": "I designed the finger linkages, enclosure, and actuator/servo wiring for a fully articulated robotic hand. The work spans three CAD iterations and two assembled prototypes. The current prototype has been verified lifting a 2 lb payload during ongoing testing. Alongside the technical work, I lead Purdue’s Humanoid Robot Club as President.",
+  "decision": {
+    "title": "Linkages over cables.",
+    "body": "I selected linkage actuation over a cable-driven approach to prioritize grip strength and field repairability. That choice shaped the finger mechanisms, enclosure, and physical integration of the actuators."
+  },
+  "chapters": [
+    {
+      "id": "challenge",
+      "title": "Designing for strength and repair",
+      "paragraphs": [
+        "The hand needed an actuation approach suited to grip strength and hands-on repair. I chose a linkage-based mechanism to address those priorities.",
+        "This decision drove the mechanical layout. My work included the finger linkages, the enclosure that houses the assembly, and actuator/servo wiring. These parts had to be considered together as an assembled hand."
+      ]
+    },
+    {
+      "id": "iteration",
+      "title": "Three CAD iterations, two physical prototypes",
+      "paragraphs": [
+        "I took the design through three CAD iterations and built two assembled prototypes. Moving between CAD and assembly gave the project a physical basis for further revision.",
+        "The design work covered the mechanisms and their integration: finger linkage geometry, the enclosure, and the actuator/servo wiring. The current prototype remains part of an ongoing test-and-iteration cycle."
+      ]
+    },
+    {
+      "id": "testing",
+      "title": "A measured result, with testing still underway",
+      "paragraphs": [
+        "The current prototype has been verified lifting a 2 lb payload. This is the demonstrated result for the assembled prototype; it is not a claim about maximum grip force or a completed endurance qualification.",
+        "I presented research at Purdue’s fall and spring undergraduate research conferences. Both presentations were listed under “Presentations with Distinction.”"
+      ]
+    },
+    {
+      "id": "leadership",
+      "title": "Building the team around the hardware",
+      "paragraphs": [
+        "As President, I lead a 1,500+ member organization across three technical subteams. My responsibilities include club strategy, sponsor relationships, and technical project direction.",
+        "The role combines hands-on mechanical work with the organizational work that helps a large student engineering community build together. StarkHacks, an HRC program, is documented separately in this portfolio."
+      ]
+    }
+  ],
+  "outcome": "Three CAD iterations and two assembled prototypes, with the current hand verified lifting 2 lb. Prototype testing is ongoing.",
+  "links": [],
+  "media": [
+    {
+      "src": "/projects/robotic-hand/assembled-prototype.png",
+      "alt": "Assembled robotic hand prototype on a workbench, showing finger linkages, palm enclosure, and wiring",
+      "caption": "Assembled robotic-hand prototype on the workbench. The visible finger linkages connect the articulated segments above the palm enclosure.",
+      "section": null,
+      "width": 345,
+      "height": 544
+    },
+    {
+      "src": "/projects/robotic-hand/hand-cad.png",
+      "alt": "CAD model of the robotic hand with linked finger segments, palm enclosure, and actuator assembly",
+      "caption": "Robotic-hand CAD assembly showing the articulated finger linkages, their pivot connections, and the palm enclosure.",
+      "section": "iteration",
+      "width": 362,
+      "height": 575
+    }
+  ],
+  "icon": "hand"
+}

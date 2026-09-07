@@ -1,0 +1,123 @@
+{
+  "slug": "playar",
+  "title": "PlayAR",
+  "headline": "A new perspective on practice.",
+  "description": "First-person XR football training on Meta Quest Pro, shaped with feedback from real coaches.",
+  "category": "Product & software",
+  "organization": "PlayAR",
+  "dates": "Oct 2023 · June 2026",
+  "year": "2023–26",
+  "role": "Co-Founder · Product direction",
+  "status": "Prototype piloted",
+  "theme": "green",
+  "coverLabel": "Extended reality / Football",
+  "coverValue": "PlayAR",
+  "coverFoot": "Meta Quest Pro / First-person practice",
+  "tags": [
+    "Product design",
+    "Unity",
+    "Blender",
+    "XR",
+    "Meta Quest Pro"
+  ],
+  "facts": [
+    {
+      "value": "Quest Pro",
+      "label": "Prototype platform"
+    },
+    {
+      "value": "Top 600",
+      "label": "Diamond Challenge team · 2024"
+    },
+    {
+      "value": "Top 50",
+      "label": "Limitless Global Summit team · 2025"
+    }
+  ],
+  "overview": "I co-founded PlayAR, an XR football training platform that lets players run first-person reps against virtual opponents on Meta Quest Pro. I owned product direction and worked alongside the development team on animation and movement UI, translating coach feedback into build requirements.",
+  "decision": {
+    "title": "Let practice inform the product.",
+    "body": "We piloted the prototype with our high school football team. Coach feedback became build requirements, keeping product direction grounded in the way players and coaches actually practice."
+  },
+  "chapters": [
+    {
+      "id": "concept",
+      "title": "Football reps from the player’s perspective",
+      "paragraphs": [
+        "PlayAR’s concept was a first-person training experience: use a headset to run reps against virtual opponents. The platform was developed for Meta Quest Pro.",
+        "My role centered on product direction. I worked alongside the development team on the animation and movement interface, connecting the experience we wanted players to have with the requirements needed to build it."
+      ]
+    },
+    {
+      "id": "development",
+      "title": "From coach feedback to build requirements",
+      "paragraphs": [
+        "The project combined XR development with animation and movement UI work. The project workflow used Unity and Blender.",
+        "I translated coach feedback into concrete build requirements and worked with the team on the interface and motion. This connected the product work to the experience of running a play from a player’s point of view.",
+        "The pitch deck describes personalized plays, live casting, and eye-tracking data as areas of product differentiation. These express the broader product direction. The documented pilot centered on first-person reps and live play-throws against virtual players."
+      ]
+    },
+    {
+      "id": "pilot",
+      "title": "Taking the prototype to the field",
+      "paragraphs": [
+        "We piloted the prototype with our high school football team, running live play-throws against virtual players. Coaches responded positively, and several continued integrating AR tools into practice afterward.",
+        "The pilot provided qualitative feedback about the experience. Coach feedback informed further product requirements."
+      ]
+    },
+    {
+      "id": "recognition",
+      "title": "Developing the venture",
+      "paragraphs": [
+        "PlayAR advanced to the Diamond Challenge semifinal round as a top-600 team in 2024 and to the Limitless Global Summit as a top-50 team in 2025.",
+        "My co-founder work spanned October 2023 through June 2026, bringing together product direction, development collaboration, and real-world prototype feedback."
+      ]
+    },
+    {
+      "id": "venture",
+      "title": "The proposed business model",
+      "paragraphs": [
+        "The pitch deck proposed a team subscription priced at $800 per month, excluding the headset, with a $1,000 contractual fee. It focused on football programs at the high-school, college, and professional levels.",
+        "These figures describe the venture’s pitch-stage model. They are separate from the prototype and coaching feedback documented above. The deck’s later milestones, including expanded eye-tracking analysis and additional sports, describe the roadmap."
+      ]
+    }
+  ],
+  "outcome": "An XR training prototype piloted with a high school football team, positive coach feedback, and recognition in two entrepreneurship competitions.",
+  "links": [
+    {
+      "label": "PlayAR website",
+      "href": "https://www.playar.co"
+    },
+    {
+      "label": "Pitch deck",
+      "href": "https://docs.google.com/presentation/d/1Se_cNicAns99zctO43NWmqWD8CZzTPh1CblxN0RmilE/edit"
+    }
+  ],
+  "media": [
+    {
+      "src": "/projects/playar/training-environment.webp",
+      "alt": "PlayAR virtual football players positioned in a practice environment",
+      "caption": "PlayAR development capture showing virtual players in the training environment.",
+      "section": null,
+      "width": 1600,
+      "height": 901
+    },
+    {
+      "src": "/projects/playar/pitch-presentation.webp",
+      "alt": "PlayAR team presenting the project",
+      "caption": "The PlayAR team presenting the training concept.",
+      "section": "recognition",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/projects/playar/team.webp",
+      "alt": "PlayAR team at the Diamond Challenge",
+      "caption": "The PlayAR team at the Diamond Challenge.",
+      "section": "recognition",
+      "width": 1600,
+      "height": 1067
+    }
+  ],
+  "icon": "gamepad"
+}

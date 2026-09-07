@@ -1,0 +1,92 @@
+{
+  "identity": {
+    "name": "Gabriel Duarte Rengifo",
+    "logo": "/brand/gdr-logo.png",
+    "logoAlt": "GDR monogram",
+    "portrait": "/me.jpg",
+    "portraitAlt": "Gabriel Duarte Rengifo",
+    "portraitCaption": "Engineer. Designer. Pilot."
+  },
+  "navigation": {
+    "home": "Home",
+    "work": "Work",
+    "resume": "Résumé",
+    "contact": "Say hello",
+    "outline": "On this page",
+    "progress": "Reading progress",
+    "themeLight": "Switch to light mode",
+    "themeDark": "Switch to dark mode",
+    "skip": "Skip to content"
+  },
+  "hero": {
+    "eyebrow": "Purdue University · Aerospace Engineering",
+    "title": "Engineering, with",
+    "accent": "a passion for design.",
+    "description": "I’m an aerospace engineering student, builder, and private pilot. I enjoy bringing ideas into the physical world, from rocket controls and robotic hands to tools that help aircraft take shape.",
+    "workLink": "Explore my work",
+    "resumeLink": "The extended résumé",
+    "degree": "B.S. Aeronautical & Astronautical Engineering",
+    "graduation": "2029",
+    "school": "Purdue University",
+    "pilot": "Private Pilot",
+    "instrument": "Working toward an instrument rating"
+  },
+  "work": {
+    "eyebrow": "The portfolio",
+    "title": "Things I’ve worked on.",
+    "intro": "A closer look at the ideas, decisions, and hands-on work behind each project.",
+    "indexLink": "Project index",
+    "backToIndex": "Back to the project index"
+  },
+  "projectLabels": {
+    "role": "My role",
+    "timeline": "Timeline",
+    "status": "Status",
+    "overview": "Overview",
+    "decision": "A key design decision",
+    "outcome": "Outcome & current status",
+    "tools": "Tools & disciplines",
+    "fullImage": "View full size",
+    "links": "Project links"
+  },
+  "resume": {
+    "eyebrow": "The extended résumé",
+    "title": "Experience & background.",
+    "intro": "My work in aviation, manufacturing, robotics, and product design, alongside my aerospace engineering studies at Purdue.",
+    "download": "Download résumé",
+    "education": "Education",
+    "experience": "Engineering & work",
+    "leadership": "Technical leadership",
+    "earlier": "Earlier involvement",
+    "coursework": "Selected coursework",
+    "skills": "Skills & tools",
+    "aviation": "Beyond the desk",
+    "projectLink": "Jump to the project",
+    "present": "Present"
+  },
+  "about": {
+    "eyebrow": "A little about me",
+    "title": "Curiosity keeps me building.",
+    "description": "I study Aeronautical and Astronautical Engineering at Purdue, lead the Humanoid Robot Club, and work on rocket controls with the Purdue Space Program. I’m drawn to the point where careful analysis becomes something I can build, test, and improve."
+  },
+  "footer": {
+    "eyebrow": "Aerospace · Engineering · Design",
+    "title": "Have something interesting in mind? Let’s talk.",
+    "locations": "West Lafayette, IN · Boca Raton, FL",
+    "linkedin": "LinkedIn",
+    "resume": "Résumé PDF"
+  },
+  "metadata": {
+    "title": "Gabriel Duarte Rengifo | Engineering & Design",
+    "description": "Aerospace engineering, robotics, manufacturing, and product design by Purdue student Gabriel Duarte Rengifo."
+  },
+  "notFound": {
+    "eyebrow": "Page not found",
+    "title": "Let’s get back on course.",
+    "link": "Back to the portfolio"
+  },
+  "redirect": {
+    "message": "This project is now part of one continuous portfolio.",
+    "link": "Continue to the portfolio"
+  }
+}

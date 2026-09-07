@@ -1,0 +1,55 @@
+{
+  "slug": "high-power-rocketry",
+  "title": "High-power rocketry",
+  "headline": "Learning through the build.",
+  "description": "Kit building and OpenRocket simulation toward Level 1 and Level 2 high-power rocketry certification.",
+  "category": "Aerospace",
+  "organization": "Purdue Space Program",
+  "dates": "Aug 2025 · Present",
+  "year": "2025–present",
+  "role": "High Power Rocketry subteam member",
+  "status": "Builds in progress · Certification in progress",
+  "theme": "dark",
+  "coverLabel": "High-power rocketry",
+  "coverValue": "L1 / L2",
+  "coverFoot": "OpenRocket / Kit build / Team mentorship",
+  "tags": [
+    "OpenRocket",
+    "Rocket assembly",
+    "Simulation",
+    "High-power rocketry"
+  ],
+  "facts": [
+    {
+      "value": "L1 / L2",
+      "label": "Certification goals"
+    },
+    {
+      "value": "OpenRocket",
+      "label": "Simulation workflow"
+    },
+    {
+      "value": "PSP",
+      "label": "Team mentorship"
+    }
+  ],
+  "overview": "As part of Purdue Space Program’s High Power Rocketry subteam, I’m building Level 1 and Level 2 high-power rockets through kit building, OpenRocket simulation, and team mentorship. The work is toward NAR/Tripoli certification.",
+  "decision": {
+    "title": "Connect simulation with hands-on construction.",
+    "body": "The project brings together an OpenRocket simulation workflow, physical kit building, and mentorship from the high-power rocketry team."
+  },
+  "chapters": [
+    {
+      "id": "approach",
+      "title": "Building a practical foundation",
+      "paragraphs": [
+        "The certification pathway combines kit building with OpenRocket simulation and team mentorship. I’m using this work to develop hands-on experience alongside my thrust vector control design work on Tadpole.",
+        "Level 1 and Level 2 are current certification goals. They are not completed certifications, and this portfolio does not yet report a certification flight result."
+      ]
+    }
+  ],
+  "outcome": "Rocket builds and simulation work are in progress toward NAR/Tripoli certification.",
+  "links": [],
+  "media": [],
+  "icon": "rocket"
+}
