@@ -4,8 +4,7 @@
     "logo": "/brand/gdr-logo.png",
     "logoAlt": "GDR monogram",
     "portrait": "/me.jpg",
-    "portraitAlt": "Gabriel Duarte Rengifo",
-    "portraitCaption": "Engineer. Designer. Pilot."
+    "portraitAlt": "Gabriel Duarte Rengifo"
   },
   "navigation": {
     "home": "Home",
@@ -19,8 +18,8 @@
   "hero": {
     "eyebrow": "Purdue University · Aerospace Engineering",
     "title": "Aerospace engineering",
-    "accent": "& mechanical design.",
-    "description": "I’m an aerospace engineering student, builder, and private pilot. I enjoy bringing ideas into the physical world, from rocket controls and robotic hands to tools that help aircraft take shape.",
+    "accent": "& design.",
+    "description": "Born in Colombia, I’m an aerospace engineering student, builder, and private pilot. I enjoy bringing ideas into the physical world, from rocket controls and robotic hands to tools that help aircraft take shape.",
     "workLink": "Explore my work",
     "resumeLink": "The extended resume",
     "degree": "B.S. Aeronautical & Astronautical Engineering",
@@ -39,10 +38,9 @@
   "projectLabels": {
     "role": "My role",
     "timeline": "Timeline",
-    "status": "Status",
     "overview": "Overview",
     "decision": "A key design decision",
-    "outcome": "Outcome & current status",
+    "outcome": "Outcome",
     "tools": "Tools & disciplines",
     "fullImage": "View full size",
     "links": "Project links"
@@ -58,14 +56,14 @@
     "earlier": "Earlier involvement",
     "coursework": "Selected coursework",
     "skills": "Skills & tools",
-    "aviation": "Beyond the desk",
+    "aviation": "In the sky",
     "projectLink": "Jump to the project",
     "present": "Present"
   },
   "about": {
     "eyebrow": "A little about me",
     "title": "Curiosity keeps me building.",
-    "description": "I study Aeronautical and Astronautical Engineering at Purdue, lead the Humanoid Robot Club, and work on rocket controls with the Purdue Space Program. I’m drawn to the point where careful analysis becomes something I can build, test, and improve."
+    "description": "I study Aeronautical and Astronautical Engineering at Purdue, lead the Humanoid Robot Club, and work on rocket controls with Purdue Space Program Active Controls. I’m drawn to owning designs from start to finish, using analysis to learn from each iteration and improve what I build."
   },
   "footer": {
     "eyebrow": "Aerospace · Engineering · Design",

@@ -8,7 +8,6 @@
   "dates": "Aug 2025 · Present",
   "year": "2025–present",
   "role": "Mechanical designer · Club President",
-  "status": "Prototype testing",
   "theme": "blue",
   "coverLabel": "Robotic hand",
   "coverValue": "2",
@@ -38,14 +37,14 @@
   "overview": "I designed the finger linkages, enclosure, and actuator/servo wiring for a fully articulated robotic hand. The work spans three CAD iterations and two assembled prototypes. The current prototype has been verified lifting a 2 lb payload during ongoing testing. Alongside the technical work, I lead Purdue’s Humanoid Robot Club as President.",
   "decision": {
     "title": "Linkages over cables.",
-    "body": "I selected linkage actuation over a cable-driven approach to prioritize grip strength and field repairability. That choice shaped the finger mechanisms, enclosure, and physical integration of the actuators."
+    "body": "We selected linkage actuation over a cable-driven approach to prioritize grip strength and field repairability. That choice shaped the finger mechanisms, enclosure, and physical integration of the actuators."
   },
   "chapters": [
     {
       "id": "challenge",
       "title": "Designing for strength and repair",
       "paragraphs": [
-        "The hand needed an actuation approach suited to grip strength and hands-on repair. I chose a linkage-based mechanism to address those priorities.",
+        "The hand needed an actuation approach suited to grip strength and hands-on repair. We chose a linkage-based mechanism to address those priorities.",
         "This decision drove the mechanical layout. My work included the finger linkages, the enclosure that houses the assembly, and actuator/servo wiring. These parts had to be considered together as an assembled hand."
       ]
     },
@@ -53,7 +52,7 @@
       "id": "iteration",
       "title": "Three CAD iterations, two physical prototypes",
       "paragraphs": [
-        "I took the design through three CAD iterations and built two assembled prototypes. Moving between CAD and assembly gave the project a physical basis for further revision.",
+        "We took the design through three CAD iterations and built two assembled prototypes. Moving between CAD and assembly gave the project a physical basis for further revision.",
         "The design work covered the mechanisms and their integration: finger linkage geometry, the enclosure, and the actuator/servo wiring. The current prototype remains part of an ongoing test-and-iteration cycle."
       ]
     },
@@ -69,7 +68,7 @@
       "id": "leadership",
       "title": "Building the team around the hardware",
       "paragraphs": [
-        "As President, I lead a 1,500+ member organization across three technical subteams. My responsibilities include club strategy, sponsor relationships, and technical project direction.",
+        "As President, I lead a 1,500+ member organization with many subteams spanning electrical, mechanical, and software roles. My responsibilities include club strategy, finances, sponsor relationships, and technical project direction.",
         "The role combines hands-on mechanical work with the organizational work that helps a large student engineering community build together. StarkHacks, an HRC program, is documented separately in this portfolio."
       ]
     }

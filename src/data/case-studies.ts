@@ -23,7 +23,7 @@ export type CaseStudy = {
     dates: string;
     year: string;
     role: string;
-    status: string;
+    directoryNote?: string;
     theme: string;
     coverLabel: string;
     coverValue: string;
@@ -49,10 +49,11 @@ export type CaseStudy = {
         src: string;
         alt: string;
         caption: string;
+        credit?: { label: string; href: string; license: string; licenseHref: string };
         section?: string | null;
         width?: number;
         height?: number;
     }[];
 };
 
-export const caseStudies: CaseStudy[] = [project2, project0, project1, project4, project3, project5, project6];
+export const caseStudies: CaseStudy[] = [project2, project0, project1, project4, project6, project3, project5];

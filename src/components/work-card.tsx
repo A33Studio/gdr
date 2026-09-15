@@ -22,7 +22,7 @@ export function WorkCard({ project }: { project: CaseStudy }) {
         {media ? <img src={media.src} alt="" width={media.width} height={media.height} loading="lazy" /> : <span>{project.coverValue}</span>}
       </div>
       <div className="directory-caption">
-        <div className="directory-copy"><span className="directory-category">{project.category}</span><h3>{project.title}</h3></div>
+        <div className="directory-copy"><span className="directory-category">{project.category}</span><h3>{project.title}</h3>{project.directoryNote && <p className="directory-note">{project.directoryNote}</p>}</div>
         <ArrowUpRight size={22} aria-hidden="true"/>
       </div>
     </a>

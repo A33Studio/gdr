@@ -8,7 +8,6 @@
   "dates": "Aug 2025 · Present",
   "year": "2025–present",
   "role": "High Power Rocketry subteam member",
-  "status": "Builds in progress · Certification in progress",
   "theme": "dark",
   "coverLabel": "High-power rocketry",
   "coverValue": "L1 / L2",
@@ -50,6 +49,22 @@
   ],
   "outcome": "Rocket builds and simulation work are in progress toward NAR/Tripoli certification.",
   "links": [],
-  "media": [],
-  "icon": "rocket"
+  "media": [
+    {
+      "src": "/projects/rocketry/quantum-nike-launch.jpg",
+      "alt": "Illustrative photo of a high-power rocket launching in the desert",
+      "caption": "Illustrative high-power rocket launch, photographed by Steve Jurvetson.",
+      "section": null,
+      "width": 2071,
+      "height": 2015,
+      "credit": {
+        "label": "Steve Jurvetson",
+        "href": "https://commons.wikimedia.org/wiki/File:Quantum_Nike_Rocket_Launch_(29955963497).jpg",
+        "license": "CC BY 2.0",
+        "licenseHref": "https://creativecommons.org/licenses/by/2.0/"
+      }
+    }
+  ],
+  "icon": "rocket",
+  "directoryNote": "Illustrative launch photo"
 }

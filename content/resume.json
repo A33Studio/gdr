@@ -112,7 +112,7 @@
       "logoUrl": "/humanoid.jpg",
       "start": "Aug 2025",
       "end": null,
-      "description": "Leading a 1,500+ member organization across 3 technical subteams, setting club strategy, sponsor relationships, and technical project direction. As President of StarkHacks, an HRC program, ran operations for a 36-hour hardware hackathon with 750 attendees · owning venue contracting at the Purdue Armory, catering, AV/production, dedicated participant Wi-Fi, and parking logistics. Designed all 5 finger linkages, enclosure, and actuator/servo wiring for a fully articulated robotic hand, choosing linkage actuation over cable-driven for grip strength and field repairability; delivered 3 CAD iterations and 2 assembled prototypes, with the current prototype verified grasping 2 lb payloads in ongoing testing. Presented hand design research at Purdue's fall and spring undergraduate research conferences, recognized with \"Presentations with Distinction\" at both."
+      "description": "Leading a 1,500+ member organization with many subteams spanning electrical, mechanical, and software roles, overseeing club strategy, finances, sponsor relationships, and technical project direction. As Head of Ops for StarkHacks, an HRC program, ran operations for a 36-hour hardware hackathon with 750 attendees · owning venue contracting at the Purdue Armory, catering, AV/production, dedicated participant Wi-Fi, and parking logistics. Designed all 5 finger linkages, enclosure, and actuator/servo wiring for a fully articulated robotic hand, working with the team to choose linkage actuation over cable-driven for grip strength and field repairability and deliver 3 CAD iterations and 2 assembled prototypes, with the current prototype verified grasping 2 lb payloads in ongoing testing. Presented hand design research at Purdue's fall and spring undergraduate research conferences, recognized with \"Presentations with Distinction\" at both."
     },
     {
       "org": "Purdue Space Program",
@@ -120,11 +120,11 @@
       "type": "club",
       "typeLabel": "Club",
       "location": "Purdue University · West Lafayette, IN",
-      "role": "Active Controls Propulsion & High Power Rocketry Subteam Member",
+      "role": "Active Controls Propulsion and Fluids · High Power Rocketry Subteam Member",
       "logoUrl": "",
       "start": "Aug 2025",
       "end": null,
-      "description": "Designing the actuator mounting scheme for a gimbaled thrust vector control system on PSP's Tadpole rocket; wrote a MATLAB tool evaluating 250+ candidate mount point sets against actuator stroke and torque constraints using engine geometry extracted from NX CAD, narrowing to 3 configurations, with the selected configuration now in final design and fabrication. Building a Level 1 and Level 2 high-power rocket (kit build, OpenRocket simulation, team mentorship) toward NAR/Tripoli certification as part of PSP's high-power rocketry subteam."
+      "description": "Designing the actuator mounting scheme for a gimbaled thrust vector control system on Tadpole with Purdue Space Program Active Controls; wrote a MATLAB tool evaluating 250+ candidate mount point sets against actuator stroke and torque constraints using engine geometry extracted from NX CAD, narrowing to 3 configurations, with the selected configuration now in final design and fabrication. Building a Level 1 and Level 2 high-power rocket (kit build, OpenRocket simulation, team mentorship) toward NAR/Tripoli certification as part of PSP's high-power rocketry subteam."
     },
     {
       "org": "PlayAR",
@@ -132,7 +132,7 @@
       "type": "founder",
       "typeLabel": "Co-Founder",
       "location": "Fort Lauderdale, FL",
-      "role": "Co-Founder",
+      "role": "Product Designer",
       "logoUrl": "/playar.jpg",
       "start": "Oct 2023",
       "end": "June 2026",

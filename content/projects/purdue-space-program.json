@@ -2,13 +2,12 @@
   "slug": "purdue-space-program",
   "title": "Tadpole · Thrust vector control",
   "headline": "Making thrust steerable.",
-  "description": "Actuator mounting design and constraint evaluation for Purdue Space Program’s Tadpole rocket.",
+  "description": "Actuator mounting design and constraint evaluation for Tadpole, a rocket developed by Purdue Space Program’s Active Controls team.",
   "category": "Aerospace",
-  "organization": "Purdue Space Program",
+  "organization": "Purdue Space Program Active Controls",
   "dates": "Aug 2025 · Present",
   "year": "2025–present",
-  "role": "Active Controls Propulsion subteam member",
-  "status": "Final design & fabrication",
+  "role": "Propulsion and Fluids subteam member",
   "theme": "dark",
   "coverLabel": "Thrust vector control",
   "coverValue": "Tadpole",
@@ -105,5 +104,6 @@
       "height": 675
     }
   ],
-  "icon": "orbit"
+  "icon": "orbit",
+  "directoryNote": "Purdue Space Program Active Controls"
 }

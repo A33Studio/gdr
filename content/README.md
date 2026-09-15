@@ -7,7 +7,7 @@ You can change the site's text here without editing the page code.
 - **resume.json**: education, experience, coursework, skills, pilot details,
   instrument-rating progress, contact links, and the résumé download path.
 - **projects/**: one clearly named JSON file per project. Edit its summary,
-  role, dates, status, facts, design decision, chapters, image captions, and links.
+  role, dates, facts, design decision, chapters, image captions, and links.
 
 ## How to edit
 
@@ -21,8 +21,9 @@ Saving a content file changes the local source. It does not publish automaticall
 
 ## Project fields
 
-- `title`: project name, used in the page and scroll navigator.
+- `title`: project name, used in the project index and detailed section.
 - `description`: short introduction under the project name.
+- `directoryNote`: optional supporting line beneath the title in the project index.
 - `overview`: the main summary of your contribution.
 - `facts`: headline numbers or specifications, each with a `value` and `label`.
 - `decision`: an important design choice and its explanation.

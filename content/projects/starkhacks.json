@@ -2,13 +2,12 @@
   "slug": "starkhacks",
   "title": "StarkHacks",
   "headline": "Making room for 750 builders.",
-  "description": "The operations behind a 36-hour in-person hardware hackathon at Purdue.",
+  "description": "The operations behind the world’s largest hardware hackathon, a 36-hour in-person event at Purdue.",
   "category": "Leadership",
   "organization": "Humanoid Robot Club · Purdue",
-  "dates": "During HRC presidency · Aug 2025 · Present",
+  "dates": "Aug 2025 · Present",
   "year": "2025–present",
-  "role": "President · Event operations",
-  "status": "Event delivered",
+  "role": "Head of Ops",
   "theme": "violet",
   "coverLabel": "Hardware hackathon",
   "coverValue": "750",
@@ -34,7 +33,7 @@
       "label": "Purdue event venue"
     }
   ],
-  "overview": "As President of StarkHacks, a Humanoid Robot Club program, I ran operations for a 36-hour in-person hardware hackathon with 750 attendees. I owned venue contracting at the Purdue Armory, catering, AV/production, dedicated participant Wi-Fi infrastructure, and parking logistics.",
+  "overview": "As Head of Ops for StarkHacks, a Humanoid Robot Club program, I ran operations for a 36-hour in-person hardware hackathon with 750 attendees. I owned venue contracting at the Purdue Armory, catering, AV/production, dedicated participant Wi-Fi infrastructure, and parking logistics.",
   "decision": {
     "title": "Treat the event’s support systems as part of the experience.",
     "body": "Venue, food, production, connectivity, and arrival logistics all sat within my operational scope. Dedicated participant Wi-Fi infrastructure was one of the systems needed to support the event."
@@ -44,7 +43,7 @@
       "id": "scope",
       "title": "A hardware event at scale",
       "paragraphs": [
-        "StarkHacks brought 750 attendees together for a 36-hour in-person hardware hackathon. As President, I owned the operational work that enabled the event to take place at the Purdue Armory.",
+        "StarkHacks brought 750 attendees together for a 36-hour in-person hardware hackathon. As Head of Ops, I owned the operational work that enabled the event to take place at the Purdue Armory.",
         "The responsibility spanned contracting, production, infrastructure, and participant logistics."
       ]
     },
@@ -65,7 +64,12 @@
     }
   ],
   "outcome": "Delivered operations for a 36-hour hardware hackathon attended by 750 people.",
-  "links": [],
+  "links": [
+    {
+      "label": "StarkHacks website",
+      "href": "https://starkhacks.com/"
+    }
+  ],
   "media": [
     {
       "src": "/projects/starkhacks/event-floor.webp",
