@@ -18,7 +18,8 @@
     "DFM/DFA",
     "SLA",
     "FDM",
-    "SLS"
+    "SLS",
+    "DMLS"
   ],
   "facts": [
     {
@@ -52,12 +53,12 @@
       "id": "manufacturing",
       "title": "Hands-on additive manufacturing",
       "paragraphs": [
-        "I operated SLA, FDM, and SLS additive manufacturing machines to produce shop aids and training tools for internal production. The equipment included Formlabs, Bambu, Markforged, Stratasys, and EOS machines.",
+        "I operated SLA, FDM, SLS, and DMLS additive manufacturing machines to produce shop aids and training tools for internal production. The equipment included Formlabs, Bambu, Markforged, Stratasys, and EOS machines.",
         "The role also involved preventive maintenance on additive manufacturing equipment. Alongside the tooling projects, I redesigned the lab floor plan to open dedicated space for composite layup work."
       ],
       "points": [
         "CATIA tooling design with DFM/DFA principles.",
-        "SLA, FDM, and SLS machine operation.",
+        "SLA, FDM, SLS, and DMLS machine operation.",
         "Internal customer review, iteration, and delivery.",
         "Lab layout improvement and equipment preventive maintenance."
       ]

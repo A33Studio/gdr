@@ -41,7 +41,7 @@
       "category": "Technical Skills",
       "items": [
         "Additive Manufacturing",
-        "SLA/SLS/FDM",
+        "SLA/SLS/FDM/DMLS",
         "CNC",
         "CAD",
         "Mechanical Design",
@@ -100,7 +100,7 @@
       "logoUrl": "/gulfstream.jpg",
       "start": "May 2026",
       "end": "July 2026",
-      "description": "Designed 7 custom tooling projects in CATIA applying DFM/DFA principles, owning each from concept through internal customer review to delivery · 2 were adopted into production on delivery, with one clearing a 2-month backlog and pulling a shipment roughly a month ahead of schedule. Operated SLA, FDM, and SLS additive manufacturing machines (Formlabs, Bambu, Markforged, Stratasys, EOS) to produce shop aids and training tools for internal production. Performed hands-on troubleshooting and preventive maintenance on AM equipment, and redesigned the lab floorplan to open dedicated space for composite layup work."
+      "description": "Designed 7 custom tooling projects in CATIA applying DFM/DFA principles, owning each from concept through internal customer review to delivery · 2 were adopted into production on delivery, with one clearing a 2-month backlog and pulling a shipment roughly a month ahead of schedule. Operated SLA, FDM, SLS, and DMLS additive manufacturing machines (Formlabs, Bambu, Markforged, Stratasys, EOS) to produce shop aids and training tools for internal production. Performed hands-on troubleshooting and preventive maintenance on AM equipment, and redesigned the lab floorplan to open dedicated space for composite layup work."
     },
     {
       "org": "Humanoid Robot Club",
