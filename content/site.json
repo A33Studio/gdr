@@ -10,10 +10,8 @@
   "navigation": {
     "home": "Home",
     "work": "Work",
-    "resume": "Résumé",
+    "resume": "Resume",
     "contact": "Say hello",
-    "outline": "On this page",
-    "progress": "Reading progress",
     "themeLight": "Switch to light mode",
     "themeDark": "Switch to dark mode",
     "skip": "Skip to content"
@@ -24,7 +22,7 @@
     "accent": "a passion for design.",
     "description": "I’m an aerospace engineering student, builder, and private pilot. I enjoy bringing ideas into the physical world, from rocket controls and robotic hands to tools that help aircraft take shape.",
     "workLink": "Explore my work",
-    "resumeLink": "The extended résumé",
+    "resumeLink": "The extended resume",
     "degree": "B.S. Aeronautical & Astronautical Engineering",
     "graduation": "2029",
     "school": "Purdue University",
@@ -50,10 +48,10 @@
     "links": "Project links"
   },
   "resume": {
-    "eyebrow": "The extended résumé",
+    "eyebrow": "The extended resume",
     "title": "Experience & background.",
     "intro": "My work in aviation, manufacturing, robotics, and product design, alongside my aerospace engineering studies at Purdue.",
-    "download": "Download résumé",
+    "download": "Download resume",
     "education": "Education",
     "experience": "Engineering & work",
     "leadership": "Technical leadership",
@@ -74,7 +72,7 @@
     "title": "Have something interesting in mind? Let’s talk.",
     "locations": "West Lafayette, IN · Boca Raton, FL",
     "linkedin": "LinkedIn",
-    "resume": "Résumé PDF"
+    "resume": "Resume PDF"
   },
   "metadata": {
     "title": "Gabriel Duarte Rengifo | Engineering & Design",

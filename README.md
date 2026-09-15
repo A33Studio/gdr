@@ -28,9 +28,11 @@ portfolio and résumé URLs redirect to their matching home-page sections, with
 fallback links when JavaScript is disabled.
 
 The theme button switches between light and dark modes, initially following the
-system setting. The chosen theme persists in the browser. The side navigator tracks
-reading progress on wide screens and becomes a compact menu on smaller screens.
-Fonts are served locally; motion respects reduced-motion preferences.
+system setting. The chosen theme persists in the browser. The header and project
+index provide direct section links. There are no progress indicators or floating
+navigation panels.
+Geist fonts are served locally. Custom action links and the theme switch use subtle
+interaction feedback that respects reduced-motion preferences.
 
 ## Content sources
 
