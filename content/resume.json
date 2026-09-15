@@ -29,9 +29,9 @@
         "Fusion 360",
         "AutoCAD",
         "SolidWorks",
-        "OnShape",
+        "Onshape",
         "Siemens NX",
-        "CATIA",
+        "CATIA V5",
         "MATLAB",
         "Teamcenter",
         "OpenRocket"
@@ -100,7 +100,7 @@
       "logoUrl": "/gulfstream.jpg",
       "start": "May 2026",
       "end": "July 2026",
-      "description": "Designed 7 custom tooling projects in CATIA applying DFM/DFA principles, owning each from concept through customer feedback to delivery · 2 were adopted into production, with one clearing a 2-month backlog and pulling a shipment roughly a month ahead of schedule. Operated SLA, FDM, and SLS additive manufacturing machines (Formlabs, Bambu, Markforged, Stratasys, EOS) to produce shop aids and training tools for internal production. Performed hands-on troubleshooting and preventive maintenance on AM equipment, and redesigned the lab floorplan to open dedicated space for composite layup work."
+      "description": "Designed 7 custom tooling projects in CATIA applying DFM/DFA principles, owning each from concept through internal customer review to delivery · 2 were adopted into production on delivery, with one clearing a 2-month backlog and pulling a shipment roughly a month ahead of schedule. Operated SLA, FDM, and SLS additive manufacturing machines (Formlabs, Bambu, Markforged, Stratasys, EOS) to produce shop aids and training tools for internal production. Performed hands-on troubleshooting and preventive maintenance on AM equipment, and redesigned the lab floorplan to open dedicated space for composite layup work."
     },
     {
       "org": "Humanoid Robot Club",
@@ -112,7 +112,7 @@
       "logoUrl": "/humanoid.jpg",
       "start": "Aug 2025",
       "end": null,
-      "description": "Leading a 1,500+ member organization with many subteams spanning electrical, mechanical, and software roles, overseeing club strategy, finances, sponsor relationships, and technical project direction. As Head of Ops for StarkHacks, an HRC program, ran operations for a 36-hour hardware hackathon with 750 attendees · owning venue contracting at the Purdue Armory, catering, AV/production, dedicated participant Wi-Fi, and parking logistics. Designed all 5 finger linkages, enclosure, and actuator/servo wiring for a fully articulated robotic hand, working with the team to choose linkage actuation over cable-driven for grip strength and field repairability and deliver 3 CAD iterations and 2 assembled prototypes, with the current prototype verified grasping 2 lb payloads in ongoing testing. Presented hand design research at Purdue's fall and spring undergraduate research conferences, recognized with \"Presentations with Distinction\" at both."
+      "description": "Leading a 1,500+ member organization with many subteams spanning electrical, mechanical, and software roles, overseeing club strategy, finances, sponsor relationships, and technical project direction. As Head of Ops and President of StarkHacks, an HRC program, ran operations for a 36-hour hardware hackathon with 750 attendees · owning venue contracting at the Purdue Armory, catering, AV/production, dedicated participant Wi-Fi, and parking logistics. Designed finger linkages, enclosure, and actuator/servo wiring for a fully articulated robotic hand, working with the team to choose linkage actuation over cable-driven for grip strength and field repairability and deliver 3 CAD iterations and 2 assembled prototypes, with the current prototype verified lifting 2 lb payloads in ongoing testing. Presented hand design research at Purdue's fall and spring undergraduate research conferences, listed under \"Presentations with Distinction\" at both."
     },
     {
       "org": "Purdue Space Program",
@@ -124,7 +124,7 @@
       "logoUrl": "",
       "start": "Aug 2025",
       "end": null,
-      "description": "Designing the actuator mounting scheme for a gimbaled thrust vector control system on Tadpole with Purdue Space Program Active Controls; wrote a MATLAB tool evaluating 250+ candidate mount point sets against actuator stroke and torque constraints using engine geometry extracted from NX CAD, narrowing to 3 configurations, with the selected configuration now in final design and fabrication. Building a Level 1 and Level 2 high-power rocket (kit build, OpenRocket simulation, team mentorship) toward NAR/Tripoli certification as part of PSP's high-power rocketry subteam."
+      "description": "Designed the actuator mounting scheme for a gimbaled thrust vector control system on Tadpole with Purdue Space Program Active Controls; wrote a MATLAB tool evaluating 250+ candidate mount point sets against actuator stroke and torque constraints using engine geometry extracted from NX CAD, narrowing to 3 configurations, with the selected configuration now in final design and fabrication. Building a Level 1 and Level 2 high-power rocket (kit build, OpenRocket simulation, team mentorship) toward NAR/Tripoli certification as part of PSP's high-power rocketry subteam."
     },
     {
       "org": "PlayAR",
@@ -148,7 +148,7 @@
       "logoUrl": "/aviation.jpg",
       "start": "June 2024",
       "end": "July 2024",
-      "description": "Audited and reconciled two years of maintenance records for 19 clients against FAA airworthiness requirements, identifying documentation errors across a 20+ aircraft fleet. Compiled findings into a report for the maintenance department recommending consolidation of overlapping maintenance events and automation of the manual record-entry process producing the errors."
+      "description": "Audited and reconciled two years of maintenance records for 19 clients against FAA airworthiness requirements, identifying documentation errors across a 20+ aircraft fleet to help keep planes in service and airworthy. Delivered a findings report to the maintenance department recommending consolidation of overlapping maintenance events to reduce aircraft downtime and automation of the manual record-entry steps causing the documented errors."
     },
     {
       "org": "InQLab",
@@ -221,7 +221,7 @@
   ],
   "aviation": {
     "heading": "Private Pilot",
-    "rating": "Airplane Single Engine Land",
+    "rating": "Part 61 · Airplane Single Engine Land",
     "progress": "Working toward an instrument rating",
     "hours": "55",
     "hoursLabel": "flight hours in current resume",
