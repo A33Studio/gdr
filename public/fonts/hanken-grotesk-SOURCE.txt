@@ -1,0 +1,4 @@
+Hanken Grotesk by Hanken Design Co.
+Official source: https://github.com/marcologous/hanken-grotesk
+Licensed under SIL OFL 1.1; see hanken-grotesk-OFL.txt.
+Variable weight range: 100–900. Regular and italic styles.

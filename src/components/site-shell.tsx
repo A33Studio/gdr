@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 import { useTheme } from 'next-themes';
-import { ArrowUpRight, Sun, Moon, MapPin } from 'lucide-react';
+import { ArrowUpRight, Sun, Moon, MapPin } from '@/components/site-icons';
 import { SITE } from '@/data/site';
 import { DATA } from '@/data/resume';
 export function SiteHeader() {

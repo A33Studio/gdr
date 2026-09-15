@@ -55,4 +55,4 @@ export type CaseStudy = {
     }[];
 };
 
-export const caseStudies: CaseStudy[] = [project0, project1, project2, project3, project4, project5, project6];
+export const caseStudies: CaseStudy[] = [project2, project0, project1, project4, project3, project5, project6];

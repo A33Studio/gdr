@@ -1,4 +1,4 @@
-import {ArrowUpRight,GraduationCap,BriefcaseBusiness,Users,BookOpen,Wrench,Plane,MapPin} from 'lucide-react';
+import {ArrowUpRight,GraduationCap,BriefcaseBusiness,Users,BookOpen,Wrench,Plane,MapPin} from '@/components/site-icons';
 import Markdown from 'react-markdown';
 import {DATA} from '@/data/resume';
 import {SITE} from '@/data/site';

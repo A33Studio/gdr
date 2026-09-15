@@ -31,7 +31,7 @@ The theme button switches between light and dark modes, initially following the
 system setting. The chosen theme persists in the browser. The header and project
 index provide direct section links. There are no progress indicators or floating
 navigation panels.
-Geist fonts are served locally. Custom action links and the theme switch use subtle
+Hanken Grotesk fonts are served locally. Phosphor Light icons, action links, and the theme switch use subtle
 interaction feedback that respects reduced-motion preferences.
 
 ## Content sources
